@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TheHunt - Bootstrap HTML5 Job Portal Template</title>
+    <meta name="description" content="">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- Syntax Highlighter -->
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Normalize/Reset CSS-->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Modernizr Script for Old Browser Support-->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body id="welcome">
+
+    <aside class="left-sidebar">
+        <div class="logo">
+            <h1 style="font-size: 30px;">
+                <a href="#welcome" style="color: #fff;">
+                  TheHunt
+                </a>
+            </h1>
+        </div>
+        <nav class="left-nav">
+            <ul id="nav">
+                <li class="current"><a href="#welcome">Welcome</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#navigation">Navigation, Logo and Hero Area</a></li>
+                <li><a href="#other-sections">Other Sections</a></li>
+                <li><a href="#css-structure">CSS Files</a></li>
+                <li><a href="#javascript">JavaScript Libraries</a></li>
+                <li><a href="#contact-form">Contact Form Configuration</a></li>
+                <li><a href="#google-map">Google Map</a></li>
+                <li><a href="#credit">Source and Credit</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <div id="main-wrapper">
+        <div class="main-content">
+            <section id="welcome">
+                <div class="content-header">
+                    <h1>TheHunt - Bootstrap HTML5 Job Portal Template</h1>
+                </div>
+                <div class="welcome">
+
+                    <h2 class="twenty">Welcome To TheHunt Template Documentation.</h2>
+
+                    <p>Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!</p>
+
+                    <p>This document covers the installation and use of this theme and often reveals answers to common problems and issues - read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document, feel free to post your issue in our <a href="http://uideck.com/support/">Support Forum</a></p>
+                    <img style="max-width:100%" src="img/banner.png">
+
+                </div>
+
+            </section>
+
+            <section id="installation">
+                <div class="content-header">
+                    <h1>TheHunt - Bootstrap HTML5 Job Portal Template</h1>
+                </div>
+                <h2 class="title">Installing Template.</h2>
+
+                <div class="section-content">
+                    <ol>
+                        <li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
+                        <li>You can view this Template in any browser, you can display or edit the Template without an internet connection.</li>
+                        <li>Now go to your cpanel or open your FTP Client (like <a target="_blank" href="http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.9.0.2/FileZilla_3.9.0.2_win32-setup.exe/download?accel_key=57%3A1407264553%3Ahttps%253A//filezilla-project.org/download.php%253Ftype%253Dclient%3A59f6c662%2460e732e1e76bd06acbe3bb9c56ae06e7b09c3e6a&click_id=31d5cc44-1cd1-11e4-a846-0200ac1d1d9f&source=accel">Filezilla</a>) and upload the content of the Template on your server root.</li>
+                        <li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
+                    </ol>
+                </div>
+
+                <div class="section-content">
+                    <h2 class="title">Homepage View</h2>
+                    <img style="max-width:100%" src="img/home.png">
+                </div>
+
+            </section>
+
+            <section id="navigation">
+                <h2 class="title">Navigation, Logo and Hero Area</h2>
+                <pre class="brush:html">
+	<!-- Header Section Start -->
+    <header id="home" class="hero-area">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <div class="theme-header clearfix">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="lni-menu"></span>
+                <span class="lni-menu"></span>
+                <span class="lni-menu"></span>
+              </button>
+              <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Home
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item active" href="index.html">Home 1</a></li>
+                    <li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="job-page.html">Job Page</a></li>
+                    <li><a class="dropdown-item" href="job-details.html">Job Details</a></li>
+                    <li><a class="dropdown-item" href="resume.html">Resume Page</a></li>
+                    <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                    <li><a class="dropdown-item" href="pricing.html">Pricing Tables</a></li>
+                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Candidates
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="browse-jobs.html">Browse Jobs</a></li>
+                    <li><a class="dropdown-item" href="browse-categories.html">Browse Categories</a></li>
+                    <li><a class="dropdown-item" href="add-resume.html">Add Resume</a></li>
+                    <li><a class="dropdown-item" href="manage-resumes.html">Manage Resumes</a></li>
+                    <li><a class="dropdown-item" href="job-alerts.html">Job Alerts</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Employers
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="post-job.html">Add Job</a></li>
+                    <li><a class="dropdown-item" href="manage-jobs.html">Manage Jobs</a></li>
+                    <li><a class="dropdown-item" href="manage-applications.html">Manage Applications</a></li>
+                    <li><a class="dropdown-item" href="browse-resumes.html">Browse Resumes</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="blog.html">Blog - Right Sidebar</a></li>
+                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
+                    <li><a class="dropdown-item" href="blog-full-width.html"> Blog full width</a></li>
+                    <li><a class="dropdown-item" href="single-post.html">Blog Single Post</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">
+                    Contact
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Sign In</a>
+                </li>
+                <li class="button-group">
+                  <a href="post-job.html" class="button btn btn-common">Post a Job</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu" data-logo="assets/img/logo-mobile.png"></div>
+      </nav>
+      <!-- Navbar End -->
+
+      <div class="container">
+        <div class="row space-100">
+          <div class="col-lg-7 col-md-12 col-xs-12">
+            <div class="contents">
+              <h2 class="head-title">Find the  <br> job that fits your life</h2>
+              <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non.</p>
+              <div class="job-search-form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-5 col-md-5 col-xs-12">
+                      <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Job Title,or Company Name">
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-xs-12">
+                      <div class="form-group">
+                        <div class="search-category-container">
+                          <label class="styled-select">
+                            <select>
+                              <option value="none">Locations</option>
+                              <option value="none">New York</option>
+                              <option value="none">California</option>
+                              <option value="none">Washington</option>
+                              <option value="none">Birmingham</option>
+                              <option value="none">Chicago</option>
+                              <option value="none">Phoenix</option>
+                            </select>
+                          </label>
+                        </div>
+                        <i class="lni-map-marker"></i>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-12">
+                      <button type="submit" class="button"><i class="lni-search"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-xs-12">
+            <div class="intro-img">
+              <img src="assets/img/intro.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+              </pre>
+            </section>
+
+            <section id="other-sections">
+                <h2 class="title">All other homepage section and Elements. Such as: Services, Categories, Featured Products, Browse Jobs, How It Works, Latest Jobs, Testimonial, Pricing Plan, Blog And Download Apps.</h2>
+                <pre class="brush:html">
+	 <!-- services Jobs Start -->
+    <section class="jobs-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+            <div class="services-inner">
+              <div class="icon">
+                <i class="lni-display"></i>
+              </div>
+              <div class="detail">
+                <h4><a href="browse-categories.html">Web Design</a></h4>
+                <span>224 Jobs</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+            <div class="services-inner">
+              <div class="icon">
+                <i class="lni-pencil-alt"></i>
+              </div>
+              <div class="detail">
+                <h4><a href="browse-categories.html">Education</a></h4>
+                <span>179 Jobs</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+            <div class="services-inner">
+              <div class="icon">
+                <i class="lni-briefcase"></i>
+              </div>
+              <div class="detail">
+                <h4><a href="browse-categories.html">Business</a></h4>
+                <span>259 Jobs</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+            <div class="services-inner">
+              <div class="icon">
+                <i class="lni-video"></i>
+              </div>
+              <div class="detail">
+                <h4><a href="browse-categories.html">Media</a></h4>
+                <span>129 Jobs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services Jobs End -->
+
+    <!-- Featured Section Start -->
+    <section id="featured" class="section bg-gray">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Jobs</h2>
+          <p>As the world's #1 job site, with over 200 million unique visitors every month from over 60 different countries</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img1.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Software Engineer</a></h3>
+                <p class="brand">Apple</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img2.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Graphic Designer</a></h3>
+                <p class="brand">Google</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="part-time">Part Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img3.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Managing Director</a></h3>
+                <p class="brand">Twitter</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img4.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Software Engineer</a></h3>
+                <p class="brand">Microsoft</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img5.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Graphic Designer</a></h3>
+                <p class="brand">Skype</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="part-time">Part Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="job-featured">
+              <div class="icon">
+                <img src="assets/img/features/img6.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Managing Director</a></h3>
+                <p class="brand">Twitter</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center mt-4">
+            <a href="job-page.html" class="btn btn-common">Browse All Jobs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section End -->
+
+    <!-- Category Section Start -->
+    <section class="category section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Browse Categories</h2>
+          <p>As the world's #1 job site, with over 200 million unique visitors every month from over 60 different countries</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-1">
+                <i class="lni-home"></i>
+              </div>
+              <h3>Finance</h3>
+              <p>(4286 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-2">
+               <i class="lni-world"></i>
+              </div>
+              <h3>Sale/Markting</h3>
+              <p>(2000 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-3">
+               <i class="lni-book"></i>
+              </div>
+              <h3>Education/Training</h3>
+              <p>(1450 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-4">
+               <i class="lni-display"></i>
+              </div>
+              <h3>Technologies</h3>
+              <p>(5100 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-5">
+                <i class="lni-brush"></i>
+              </div>
+              <h3>Art/Design</h3>
+              <p>(5079 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-6">
+              <i class="lni-heart"></i>
+              </div>
+              <h3>Healthcare</h3>
+              <p>(3235 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-7">
+               <i class="lni-funnel"></i>
+              </div>
+              <h3>Science</h3>
+              <p>(1800 jobs)</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 f-category">
+            <a href="browse-jobs.html">
+              <div class="icon bg-color-8">
+               <i class="lni-cup"></i>
+              </div>
+              <h3>Food Services</h3>
+              <p>(4286 jobs)</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- Browse jobs Section Start -->
+    <div id="browse-jobs" class="section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper">
+              <div>
+                <h3>7,000+ Browse Jobs</h3>
+                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                <a class="btn btn-common" href="#">Search jobs</a>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="img-thumb">
+              <img class="img-fluid" src="assets/img/search.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Browse jobs Section End -->
+
+    <!-- How It Work Section Start -->
+    <section class="how-it-works section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How It Works?</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="work-process">
+              <span class="process-icon">
+                <i class="lni-user"></i>
+              </span>
+              <h4>Create an Account</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="work-process step-2">
+              <span class="process-icon">
+                <i class="lni-search"></i>
+              </span>
+              <h4>Search Jobs</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="work-process step-3">
+              <span class="process-icon">
+                <i class="lni-cup"></i>
+              </span>
+              <h4>Apply</h4>
+              <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How It Work Section End -->
+
+    <!-- Latest Section Start -->
+    <section id="latest-jobs" class="section bg-gray">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Latest Jobs</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img1.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">UX Designer</a></h3>
+                <p class="brand">Apple</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img2.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">UI Designer</a></h3>
+                <p class="brand">Google</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="part-time">Part Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img3.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Web Developer</a></h3>
+                <p class="brand">Twitter</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img4.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">UX Designer</a></h3>
+                <p class="brand">Microsoft</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img5.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Digital Marketer</a></h3>
+                <p class="brand">Skype</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="part-time">Part Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="jobs-latest">
+              <div class="img-thumb">
+                <img src="assets/img/features/img6.png" alt="">
+              </div>
+              <div class="content">
+                <h3><a href="job-details.html">Web Developer</a></h3>
+                <p class="brand">Twitter</p>
+                <div class="tags">
+                  <span><i class="lni-map-marker"></i> New York</span>
+                  <span><i class="lni-user"></i>John Smith</span>
+                </div>
+                <span class="full-time">Full Time</span>
+              </div>
+              <div class="save-icon">
+                <a href="#"><i class="lni-heart-filled"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center mt-4">
+            <a href="job-page.html" class="btn btn-common">Browse All Jobs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Section End -->
+
+    <!-- Testimonial Section Start -->
+    <section id="testimonial" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Clients Review</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div id="testimonials" class="touch-slider owl-carousel">
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                      <img src="assets/img/testimonial/img1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Jessica</a></h2>
+                      <span>Senior Accountant</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                    <img src="assets/img/testimonial/img2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                    <div class="author-info">
+                      <h2><a href="#">John Doe</a></h2>
+                      <span>Project Menager</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="author">
+                    <div class="img-thumb">
+                    <img src="assets/img/testimonial/img3.png" alt="">
+                    </div>
+                  </div>
+                  <div class="content-inner">
+                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
+                    <div class="author-info">
+                      <h2><a href="#">Helen</a></h2>
+                      <span>Engineer</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Start Pricing Table Section -->
+    <div id="pricing" class="section bg-gray">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Pricing Plan</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+        </div>
+
+        <div class="row pricing-tables">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table border-color-defult">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-rocket"></i>
+                </div>
+                <h2>Professional</h2>
+                <ul>
+                  <li>Post 1 Job</li>
+                  <li>No Featured Job</li>
+                  <li>Edit Your Job Listing</li>
+                  <li>Manage Application</li>
+                  <li>30-day Expired</li>
+                </ul>
+                <div class="price"><span>$</span>0<span>/Month</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table pricing-active border-color-red">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-drop"></i>
+                </div>
+                <h2>Advance</h2>
+                <ul>
+                  <li>Post 1 Job</li>
+                  <li>No Featured Job</li>
+                  <li>Edit Your Job Listing</li>
+                  <li>Manage Application</li>
+                  <li>30-day Expired</li>
+                </ul>
+                <div class="price"><span>$</span>20<span>/Month</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table border-color-green">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-briefcase"></i>
+                </div>
+                <h2>Premium</h2>
+                <ul>
+                  <li>Post 1 Job</li>
+                  <li>No Featured Job</li>
+                  <li>Edit Your Job Listing</li>
+                  <li>Manage Application</li>
+                  <li>30-day Expired</li>
+                </ul>
+                <div class="price"><span>$</span>40<span>/Month</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Pricing Table Section -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Blog Post</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="assets/img/blog/img1.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-item-text">
+                <h3><a href="single-post.html">Tips to write an impressive resume online for beginner</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+              </div>
+              <a class="readmore" href="#">Read More</a>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="assets/img/blog/img2.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-item-text">
+                <h3><a href="single-post.html">Let's explore 5 cool new features in JobBoard theme</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+              </div>
+              <a class="readmore" href="#">Read More</a>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+            <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="single-post.html">
+                  <img src="assets/img/blog/img3.jpg" alt="">
+                </a>
+              </div>
+              <div class="blog-item-text">
+                <h3><a href="single-post.html">How to convince recruiters and get your dream job</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium asperiores ad vitae.</p>
+              </div>
+              <a class="readmore" href="#">Read More</a>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog Section End -->
+
+    <!-- download Section Start -->
+    <section id="download" class="section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-xs-12">
+            <div class="download-wrapper">
+              <div>
+                <div class="download-text">
+                  <h4>Download Our Best Apps</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et metus effici turac fringilla lorem facilisis, Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="app-button">
+                <a href="#" class="btn btn-border"><i class="lni-apple"></i>Download <br> <span>From Apple Store</span></a>
+                <a href="#" class="btn btn-common btn-effect"><i class="lni-android"></i> Download <br> <span>From Play Store</span></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4 col-xs-12">
+            <div class="download-thumb">
+              <img class="img-fluid" src="assets/img/app.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- download Section Start -->
+                    </pre>
+
+            </section>
+
+            <section id="css-structure">
+                <h2 class="title">CSS Files and Structure</h2>
+                <p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
+                <pre class="brush: html">
+                  <!-- Bootstrap CSS -->
+                  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+                  <link rel="stylesheet" href="assets/css/line-icons.css">
+                  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+                  <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+                  <link rel="stylesheet" href="assets/css/slicknav.min.css">
+                  <link rel="stylesheet" href="assets/css/animate.css">
+                  <link rel="stylesheet" href="assets/css/main.css">
+                  <link rel="stylesheet" href="assets/css/responsive.css">
+
+		            </pre>
+
+                <h2 class="title">Google Web Fonts</h2>
+
+                <p>By default, the template loads this font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+
+                <pre class="brush:html">
+						<!-- Google Font
+						=========================== -->
+						@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700");
+		            </pre>
+
+
+                <h2 class="title">Fontface Fonts</h2>
+
+                <p>By default, the template loads this font from from local for heading texts, you can change the font with the one that suits you best.</p>
+
+                <pre class="brush:html">
+					     <!-- Fonts -->
+      				    <link rel="stylesheet" href="assets/css/line-icons.css">
+                    </pre>
+
+
+                <p class="twenty">You can change fonts from <strong>main.css</strong></p>
+
+                <pre class="brush:css">
+                   	body {
+                      font-family: 'Rubik', sans-serif;
+                      color: #9a9a9a;
+                      font-size: 14px;
+                      font-weight: 400;
+                      background: #fff;
+                      overflow-x: hidden;
+                    }
+
+                    html {
+                      overflow-x: hidden;
+                    }
+
+                    p {
+                      font-size: 14px;
+                      color: #9a9a9a;
+                      line-height: 26px;
+                      font-family: 'Rubik', sans-serif;
+                      margin-bottom: 0;
+                    }
+		            </pre>
+
+
+            </section>
+
+            <section id="javascript">
+                <h2 class="title">Javascript Files and Structure</h2>
+
+                <p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the <strong>Body Section</strong>.
+
+                    <pre class="brush: html">
+
+      			  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                  <script src="assets/js/jquery-min.js"></script>
+                  <script src="assets/js/popper.min.js"></script>
+                  <script src="assets/js/bootstrap.min.js"></script>
+                  <script src="assets/js/color-switcher.js"></script>
+                  <script src="assets/js/owl.carousel.min.js"></script>
+                  <script src="assets/js/jquery.slicknav.js"></script>
+                  <script src="assets/js/wow.js"></script>
+                  <script src="assets/js/jquery.counterup.min.js"></script>
+                  <script src="assets/js/waypoints.min.js"></script>
+                  <script src="assets/js/form-validator.min.js"></script>
+                  <script src="assets/js/contact-form-script.js"></script>
+                  <script src="assets/js/main.js"></script>
+
+		            </pre>
+
+            </section>
+
+            <section id="contact-form">
+                <h2 class="title"> Configuring Contact Form </h2>
+
+                <p>open <b>form-process.php</b> file from <b>ASSETS->php</b> folder of template and configure mailer function parameters to get it worked</p>
+
+                <pre class="brush:html">
+                  <!-- Replace You Email Here -->
+                  $EmailTo = "email@gmail.com";
+                </pre>
+
+            </section>
+
+            <section id="google-map">
+                <h2 class="title">Google Map Settings</h2>
+                <p>change the iframe</p>
+                <pre class="brush:javascript">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004080.414077152!2d-104.65693512785852!3d37.27559283318413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1530855407925" allowfullscreen=""></iframe>
+		         </pre>
+            </section>
+
+            <section id="credit">
+                <h2 class="title">Source and Credit</h2>
+                <div class="script-source">
+                    <ul>
+                        <li><a target="_blank" href="http://unsplash.com/">Unsplash</a></li>
+                        <li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
+                        <li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
+                        <li><a target="_blank" href="http://www.owlgraphic.com/owlcarousel">Owl Carousel</a></li>
+                        <li><a target="_blank" href="http://slicknav.com">SlickNav</a></li>
+                        <li><a target="_blank" href="http://mynameismatthieu.com/WOW/">Wow</a></li>
+                        <li><a target="_blank" href="https://lineicons.com/">Line Icons</a></li>
+                        <li><a target="_blank" href="http://daneden.github.io/animate.css/">Animate CSS</a></li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+
+    <!-- Essential JavaScript Libraries
+		==============================================-->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="syntax-highlighter/scripts/shCore.js"></script>
+    <script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+    <script src="syntax-highlighter/scripts/shBrushPhp.js"></script>
+    <script>
+        SyntaxHighlighter.all()
+    </script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
