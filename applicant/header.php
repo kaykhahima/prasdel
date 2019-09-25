@@ -1,4 +1,4 @@
-    <?php include '../head.php';?>
+    <?php include 'head.php';?>
     <!-- Header Section Start -->
     <header id="home" class="hero-area">
         <!-- Navbar Start -->
@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="../assets/img/LOGO2.png" alt=""></a>
+                        <a href="../home" class="navbar-brand"><img src="../assets/img/LOGO2.png" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
