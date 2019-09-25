@@ -9,6 +9,6 @@
 <!--        <li><a href="notifications">Notifications <span class="notinumber">2</span></a></li>        -->
 <!--        <li><a href="job-alerts">Job Alerts</a></li>-->
 
-        <li><a href="index">Log Out</a></li>
+        <li><a href="../home">Log Out</a></li>
     </ul>
 </div>

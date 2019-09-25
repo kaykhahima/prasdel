@@ -13,12 +13,12 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="index" class="navbar-brand"><img src="../assets/img/LOGO2.png" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="../assets/img/LOGO2.png" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index">
+                                <a class="nav-link" href="../home">
                                     Home
                                 </a>
                             </li>

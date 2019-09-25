@@ -7,7 +7,7 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="inner-header">
-                     <h3>Manage Applications</h3>
+                     <h3>Application Status</h3>
                  </div>
              </div>
          </div>
@@ -24,7 +24,7 @@
              </div>
              <div class="col-lg-8 col-md-12 col-xs-12">
                  <div class="job-alerts-item">
-                     <h3 class="alerts-title">Manage applications</h3>
+                     <h3 class="alerts-title">Application Status</h3>
                      <div class="applications-content">
                          <div class="row">
                              <div class="col-md-4">
