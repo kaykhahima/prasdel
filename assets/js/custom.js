@@ -1,6 +1,6 @@
 $.fn.datetimepicker.Constructor.Default = $.extend({}, $.fn.datetimepicker.Constructor.Default, {
     icons: {
-        time: 'fa fa-clock',
+        time: 'lni-alarm-clock',
         date: 'fa fa-calendar',
         up: 'fa fa-arrow-up',
         down: 'fa fa-arrow-down',

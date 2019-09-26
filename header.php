@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="assets/img/LOGO2.png" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="assets/img/logo-hi.png" width="200px" height="56px" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" data-logo="assets/img/logo2.png"></div>
+            <div class="mobile-menu" data-logo="assets/img/logo-hi.png"></div>
         </nav>
         <!-- Navbar End -->
     </header>

@@ -20,12 +20,13 @@
      <div class="container">
          <div class="row">
              <div class="col-lg-4 col-md-4 col-xs-12">
-                 <?php include 'right-sidebar.php';?>
+                 <?php include 'applicant-right-sidebar.php';?>
              </div>
              <div class="col-lg-8 col-md-8 col-xs-12">
 
                  <div class="inner-box my-resume">
-                    <a href="#" id="submit" class="btn btn-common float-right">Download</a>
+                     <a href="#" id="submit" class="btn btn-common float-right">Download <i class="lni-download"></i></a>
+                     <a href="add-cv" id="submit" class="btn btn-common float-right mr-1">Edit <i class="lni-pencil"></i></a>
                      <div class="author-resume">
                          <div class="thumb mt-4">
                              <img src="assets/img/resume/img-1.png" alt="">
@@ -64,6 +65,14 @@
                          <span class="date">2010-2014</span>
                      </div>
                      <div class="work-experence item">
+                         <h3>Professional Qualifications</h3>
+                         <h4>Certificate of UI/UX Designer</h4>
+                         <span class="date">Feb 2017-Mar 2017</span>
+                         <br>
+                         <h4>Certificate of UI Designer</h4>
+                         <span class="date">Feb 2017-Sept 2017</span>
+                     </div>
+                     <div class="work-experence item">
                          <h3>Work Experience</h3>
                          <h4>UI/UX Designer</h4>
                          <h5>Bannana INC.</h5>
@@ -76,14 +85,6 @@
                          <span class="date">Feb 2017-Sept 2017</span>
                          <p><strong>Duties: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero vero, dolores, officia quibusdam architecto sapiente eos voluptas odit ab veniam porro quae possimus itaque, quas! Tempora sequi nobis, atque incidunt!</p>
                          <!--                         <p><a href="#">4 Projects</a></p>-->
-                     </div>
-                     <div class="work-experence item">
-                         <h3>Professional Qualifications</h3>
-                         <h4>Certificate of UI/UX Designer</h4>
-                         <span class="date">Feb 2017-Mar 2017</span>
-                         <br>
-                         <h4>Certificate of UI Designer</h4>
-                         <span class="date">Feb 2017-Sept 2017</span>
                      </div>
                      <div class="education item">
                          <h3>Skills</h3>

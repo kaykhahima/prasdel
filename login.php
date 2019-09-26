@@ -42,7 +42,7 @@
                          <div class="form-group">
                              <label for="exampleCheck1">Forgot Password?</label>
                          </div>
-                         <a href="applicant/my-profile" class="btn btn-common btn-block mt-1">Log in</a>
+                         <a href="applicant-profile" class="btn btn-common btn-block mt-1">Log in</a>
                      </form>
 <!--
                      <form class="login-form">

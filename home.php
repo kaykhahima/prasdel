@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="assets/img/LOGO2.png" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="assets/img/logo-hi.png" width="200px" height="56px" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -80,69 +80,72 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" data-logo="assets/img/logo2.png"></div>
+            <div class="mobile-menu" data-logo="assets/img/logo-hi.png"></div>
         </nav>
         <!-- Navbar End -->
         <section class="bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12 col-xs-12">
-                    <div class="contents">
-                       <h3 id="welcome-text">Are you seeking for an IPT placement?</h3>
-                        <div class="job-search-form">
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
-                                        <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Keyword, Skill, Interest">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <select>
-                                                        <option value="none">Internship, Volunteer, IPT</option>
-                                                        <option value="none">Internship</option>
-                                                        <option value="none">Volunteer</option>
-                                                        <option value="none">IPT</option>
-                                                    </select>
-                                                </label>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-md-12 col-xs-12 order-lg-2">
+                        <div class="contents">
+                            <h2 class="head-title mt-2">Are you seeking <br> for an internship <br> or volunteering? <br> Need an IPT <br>placement?</h2>
+                            <div class="welcome-text">
+                                <h2 class="head-title">Are you seeking for an internship or <br> volunteering? Need an IPT placement?</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-xs-12 ">
+                        <div class="contents searcher">
+                            <div class="job-search-form ">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" placeholder="Keyword, Skill, Interest">
                                             </div>
-                                            <i class="lni-chevron-down"></i>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <select>
-                                                        <option value="none">Locations</option>
-                                                        <option value="none">Dar Es Salaam</option>
-                                                        <option value="none">Arusha</option>
-                                                        <option value="none">Tanga</option>
-                                                    </select>
-                                                </label>
+                                        <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
+                                            <div class="form-group">
+                                                <div class="search-category-container">
+                                                    <label class="styled-select">
+                                                        <select>
+                                                            <option value="none">Internship, Volunteer, IPT</option>
+                                                            <option value="none">Internship</option>
+                                                            <option value="none">Volunteer</option>
+                                                            <option value="none">IPT</option>
+                                                        </select>
+                                                    </label>
+                                                </div>
+                                                <i class="lni-chevron-down"></i>
                                             </div>
-                                            <i class="lni-map-marker"></i>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
+                                            <div class="form-group">
+                                                <div class="search-category-container">
+                                                    <label class="styled-select">
+                                                        <select>
+                                                            <option value="none">Locations</option>
+                                                            <option value="none">Dar Es Salaam</option>
+                                                            <option value="none">Arusha</option>
+                                                            <option value="none">Tanga</option>
+                                                        </select>
+                                                    </label>
+                                                </div>
+                                                <i class="lni-map-marker"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-xs-12">
+                                            <a href="browse-jobs" class="btn btn-common btn-block mt-1">Search <i class="lni-search"> </i></a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12">
-                                        <a href="browse-jobs" class="btn btn-common btn-block mt-1">Search <i class="lni-search">  </i></a>
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-12 col-xs-12">
-                    <div class="contents">
-                        <h2 class="head-title mt-2">Are you seeking <br> for an internship <br> or volunteering? <br> Need an IPT <br>placement?</h2>
-
-                    </div>
-                </div>
             </div>
-        </div>
         </section>
     </header>
     <!-- Header Section End -->
@@ -150,7 +153,7 @@
     <!-- Counter Section Start -->
     <section id="counter" class="section bg-white w-75 mx-auto mt-4">
         <div class="container">
-            <div class="row">
+            <div class="row counters">
 
                 <!-- Start counter -->
                 <div class="col-lg-3 col-md-6 col-xs-12">
@@ -202,16 +205,20 @@
     </section>
     <!-- Counter Section End -->
 
-        <!-- student call to action Start -->
+    <!-- student call to action Start -->
     <div id="browse-jobs" class="section bg-white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 order-lg-last">
                     <div class="text-wrapper">
-                        <div>
-                            <h3>We've made it easier <br> for you.</h3>
-                            <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
-                            <div class="plan-btn">
+                        <div class="row text-right">
+                            <div class="col-md-12">
+                                <h3>We've made it easier <br> for you.</h3>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                            </div>
+                            <div class="col-md-12 cta-btn cta-btn-display-lg">
                                 <a class="btn btn-common" href="#">learn more</a>
                             </div>
                         </div>
@@ -220,6 +227,9 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="img-thumb">
                         <img class="img-fluid" src="assets/svg/bookmark.svg" alt="">
+                    </div>
+                    <div class="col-md-12 cta-btn cta-btn-display-sm mt-4">
+                        <a class="btn btn-common" href="#">learn more</a>
                     </div>
                 </div>
             </div>
@@ -233,10 +243,16 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="text-wrapper">
-                        <div>
-                            <h3>Are you an Organization <br> in need of volunteers or <br> interns?</h3>
-                            <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
-                            <a class="btn btn-common" href="#">learn more</a>
+                        <div class="row text-left">
+                            <div class="col-md-12">
+                                <h3>Are you an Organization <br> in need of volunteers or <br> interns?</h3>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                            </div>
+                            <div class="col-md-12 cta-btn cta-btn-display-lg">
+                                <a class="btn btn-common" href="#">learn more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,31 +260,45 @@
                     <div class="img-thumb">
                         <img class="img-fluid" src="assets/svg/search.svg" alt="">
                     </div>
+                    <div class="col-md-12 cta-btn cta-btn-display-sm mt-4">
+                        <a class="btn btn-common" href="#">learn more</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- organization call to action End -->
 
+
+
+
     <!-- Featured Section Start -->
-    <div id="browse-jobs" class="section bg-white institution-cta">
+    <div id="browse-jobs" class="section bg-white">
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 order-lg-last">
+                    <div class="text-wrapper">
+                        <div class="row text-right">
+                            <div class="col-md-12">
+                                <h3>1,000+ Institutions</h3>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                            </div>
+                            <div class="col-md-12 cta-btn cta-btn-display-lg">
+                                <a class="btn btn-common" href="#">explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="img-thumb">
                         <img class="img-fluid" src="assets/svg/newsletter.svg" alt="">
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="text-wrapper">
-                        <div>
-                            <h3>1,000+ Institutions</h3>
-                            <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
-                            <a class="btn btn-common" href="#">explore more</a>
-                        </div>
+                    <div class="col-md-12 cta-btn cta-btn-display-sm mt-4">
+                        <a class="btn btn-common" href="#">explore more</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

@@ -20,7 +20,7 @@
      <div class="container">
          <div class="row">
              <div class="col-md-4 col-sm-4 col-xs-12">
-                 <?php include 'right-sidebar.php';?>
+                 <?php include 'organization-right-sidebar.php';?>
              </div>
 
              <div class="col-md-8 col-sm-12 col-xs-12">

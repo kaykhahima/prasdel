@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-xs-12">
                     <div class="widget">
-<!--                        <div class="footer-logo"><img src="assets/img/logo-footer.png" alt=""></div>-->
-                       <h2 class="block-title">PRASDEL</h2>
+                        <!--                        <div class="footer-logo"><img src="assets/img/logo-footer.png" alt=""></div>-->
+                        <h2 class="block-title">PRASDEL</h2>
                         <div class="textwidget">
                             <p>Sed consequat sapien faus quam bibendum convallis quis in nulla. Pellentesque volutpat odio eget diam cursus semper.</p>
                         </div>
@@ -92,6 +92,12 @@
 <script src="assets/js/form-validator.min.js"></script>
 <script src="assets/js/contact-form-script.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
+<script src="assets/js/custom.js"></script>
 
 </body>
 

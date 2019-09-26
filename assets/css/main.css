@@ -1,3 +1,6 @@
+/*line 694*/
+
+
 /*
 Theme Name:       TheHunt - Bootstrap HTML5 Job Portal Template
 Author:           UIdeck
@@ -691,7 +694,7 @@ button:focus {
   min-width: 190px;
   border: none;
   background-color: #fff;
-  white-space: nowrap;
+/*  white-space: nowrap;*/
   border-radius: 4px;
   -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
@@ -3784,7 +3787,7 @@ blockquote p a:hover {
 }
 
 .form-control:focus {
-  border: 1px solid #26ae61;
+  border: 1px solid #024b6d;
   outline: none;
   box-shadow: none;
 }
