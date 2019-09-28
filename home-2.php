@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="assets/img/logo_2.png" width="200px" height="56px" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="assets/img/LOGO_VERSION_TWO.png" width="200px" height="65px" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">

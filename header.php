@@ -42,11 +42,8 @@
                                     Organizations
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="browse-jobs">Browse Jobs</a></li>
-                                    <li><a class="dropdown-item" href="browse-categories">Browse Categories</a></li>
-                                    <li><a class="dropdown-item" href="add-resume">Add Resume</a></li>
-                                    <li><a class="dropdown-item" href="manage-resumes">Manage Resumes</a></li>
-                                    <li><a class="dropdown-item" href="job-alerts">Job Alerts</a></li>
+                                    <li><a class="dropdown-item" href="organization-page">Browse Organizations</a></li>
+                                    <li><a class="dropdown-item" href="application-page">Browse Applications</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">

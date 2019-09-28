@@ -285,8 +285,9 @@ footer .menu li a {
     .hero-area .contents .welcome-text h2 {
         padding-top: 0px;
         text-align: center;
-        font-size: 1.25em !important;
+        font-size: 1.32em !important;
         display: inherit;
+        padding-bottom: 0px;
     }
 
     .institution-cta h3,
