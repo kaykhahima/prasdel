@@ -253,8 +253,17 @@ footer .menu li a {
     background: #024b6d25;
 }
 #featured .job-featured .content .tags span i {
-    margin-right: 5px;
     color: #024b6d;
+}
+.work-process .process-icon {
+    color: #024b6d;
+}
+
+/* ==========================================================================
+   contact page
+   ========================================================================== */
+.contact-info .contact-icon {
+    background: #024b6d;
 }
 
 /*organization*/

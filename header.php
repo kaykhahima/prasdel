@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="assets/img/logo-hi.png" width="200px" height="56px" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="assets/img/LOGO_2.png" width="200px" height="56px" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -23,9 +23,10 @@
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="about">
                                     About Us
                                 </a>
+<!--
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="about">About</a></li>
                                     <li><a class="dropdown-item" href="job-page">Job Page</a></li>
@@ -36,6 +37,7 @@
                                     <li><a class="dropdown-item" href="pricing">Pricing Tables</a></li>
                                     <li><a class="dropdown-item" href="contact">Contact</a></li>
                                 </ul>
+-->
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,7 +60,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="pricing">
                                     Subscriptions
                                 </a>
                             </li>
@@ -77,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" data-logo="assets/img/logo-hi.png"></div>
+            <div class="mobile-menu" data-logo="assets/img/LOGO_2.png"></div>
         </nav>
         <!-- Navbar End -->
     </header>

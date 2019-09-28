@@ -34,9 +34,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="about">
                                     About Us
                                 </a>
+<!--
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="about">About</a></li>
                                     <li><a class="dropdown-item" href="job-page">Job Page</a></li>
@@ -47,6 +48,7 @@
                                     <li><a class="dropdown-item" href="pricing">Pricing Tables</a></li>
                                     <li><a class="dropdown-item" href="contact">Contact</a></li>
                                 </ul>
+-->
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,7 +71,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="pricing">
                                     Subscriptions
                                 </a>
                             </li>
@@ -227,7 +229,7 @@
                                 <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
                             </div>
                             <div class="col-md-12 cta-btn cta-btn-display-lg">
-                                <a class="btn btn-common" href="#">learn more</a>
+                                <a class="btn btn-common" href="aim">learn more</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +239,7 @@
                         <img class="img-fluid" src="assets/svg/bookmark.svg" alt="">
                     </div>
                     <div class="col-md-12 cta-btn cta-btn-display-sm mt-4">
-                        <a class="btn btn-common" href="#">learn more</a>
+                        <a class="btn btn-common" href="aim">learn more</a>
                     </div>
                 </div>
             </div>

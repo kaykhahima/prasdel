@@ -46,8 +46,9 @@
                                  <strong style="color:#dc3545;">Rejected</strong>
                              </p>
                              <div class="action-btn">
+                                 <a class="btn btn-xs btn-danger" href="#">Delete </a>
                                  <a class="btn btn-xs btn-success" href="#">Accept</a>
-                                 <a class="btn btn-xs btn-danger" href="#">Reject</a>
+                                 <a class="btn btn-xs btn-warning" href="#">Reject</a>
                                  <a class="btn btn-xs btn-dark" href="#">View</a>
                              </div>
                          </div>
@@ -73,8 +74,9 @@
                                  <strong style="color:#343a40;">Pending</strong>
                              </p>
                              <div class="action-btn">
+                                <a class="btn btn-xs btn-danger" href="#">Delete </a>
                                  <a class="btn btn-xs btn-success" href="#">Accept</a>
-                                 <a class="btn btn-xs btn-danger" href="#">Reject</a>
+                                 <a class="btn btn-xs btn-warning" href="#">Reject</a>
                                  <a class="btn btn-xs btn-dark" href="#">View</a>
                              </div>
                          </div>
@@ -100,8 +102,9 @@
                                  <strong style="color:#28a745;">Accepted</strong>
                              </p>
                              <div class="action-btn">
+                                <a class="btn btn-xs btn-danger" href="#">Delete </a>
                                  <a class="btn btn-xs btn-success" href="#">Accept</a>
-                                 <a class="btn btn-xs btn-danger" href="#">Reject</a>
+                                 <a class="btn btn-xs btn-warning" href="#">Reject</a>
                                  <a class="btn btn-xs btn-dark" href="#">View</a>
                              </div>
                          </div>

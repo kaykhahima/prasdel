@@ -28,7 +28,7 @@
                      <h3 class="job-title">Post A New Application</h3>
                      <form class="form-ad">
                          <div class="row">
-                             <div class="col-md-6">
+                             <div class="col-md-12">
                                  <div class="form-group">
                                      <label class="control-label">Category</label>
                                      <div class="search-category-container">
@@ -37,20 +37,6 @@
                                                  <option>Internship</option>
                                                  <option>Volunteering</option>
                                                  <option>IPT</option>
-                                             </select>
-                                         </label>
-                                     </div>
-                                 </div>
-                             </div>
-                              <div class="col-md-6">
-                                 <div class="form-group">
-                                     <label class="control-label">Location</label>
-                                     <div class="search-category-container">
-                                         <label class="styled-select">
-                                             <select class="dropdown-product selectpicker">
-                                                 <option>Dar</option>
-                                                 <option>Tanga</option>
-                                                 <option>Arusha</option>
                                              </select>
                                          </label>
                                      </div>
@@ -70,18 +56,6 @@
                                              <select class="dropdown-product selectpicker">
                                                  <option>Diploma</option>
                                                  <option>Bachelor</option>
-                                             </select>
-                                         </label>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="col-md-6">
-                                 <div class="form-group">
-                                     <label class="control-label">Duration</label>
-                                     <div class="search-category-container">
-                                         <label class="styled-select">
-                                             <select class="dropdown-product selectpicker">
-                                                 <option>8 weeks</option>
                                              </select>
                                          </label>
                                      </div>
@@ -111,6 +85,15 @@
                                      </div>
                                  </div>
                              </div>
+                             <div class="col-md-6">
+                                 <div class="form-group">
+                                     <label class="control-label">Duration</label>
+                                     <div class="search-category-container">
+                                         <input type="text" class="form-control form-control-sm" value="8 weeks">
+                                     </div>
+                                 </div>
+                             </div>
+
                              <div class="col-md-12 mt-2">
                                  <div class="form-group">
                                      <label class="control-label">Requirements</label>

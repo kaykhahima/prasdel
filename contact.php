@@ -66,28 +66,38 @@
                                  <div class="contact-icon">
                                      <i class="lni-map-marker"></i>
                                  </div>
-                                 <p>Main Office: NO.22-23 Street Name- City,Country <br> Customer Center: NO.130-45 Streen Name- City, Country</p>
+                                 <p>Ex-Daya Building, Uhuru Street No. 23, Ilala Shariff Shamba
+                                    <br> TYD Innovation Incubator</p>
                              </div>
                              <div class="single-contact">
                                  <div class="contact-icon">
                                      <i class="lni-envelope"></i>
                                  </div>
-                                 <p><a href="mailto:hello@tom.com">Customer Support: info@mail.com Technical Support: </a></p>
-                                 <p><a href="mailto:tomsaulnier@gmail.com">support@mail.com</a></p>
+                                 <p><a href="mailto:info@tyd.or.tz">Customer Support: info@tyd.or.tz<br> </a></p>
+                                 <p><a href="mailto:info@tyd.or.tz">Technical Support: info@tyd.or.tz</a></p>
                              </div>
                              <div class="single-contact">
                                  <div class="contact-icon">
                                      <i class="lni-phone-handset"></i>
                                  </div>
-                                 <p><a href="#">Main Office: +880 123 456 789</a></p>
-                                 <p><a href="#">Customer Supprort: +880 123 456 789</a></p>
+                                 <p><a href="#">Main Office: +255 713 518 549</a></p>
+                                 <p><a href="#">Customer Supprort: +255 735 717 253</a></p>
                              </div>
                          </div>
                      </div>
+                     <div class="widget">
+                        <h2 class="block-title">PRASDEL</h2>
+                        <ul class="mt-3 footer-social">
+                            <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="lni-instagram"></i></a></li>
+                        </ul>
+                    </div>
                  </div>
                  <div class="col-md-12">
                      <div id="conatiner-map">
-                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004080.414077152!2d-104.65693512785852!3d37.27559283318413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1530855407925" allowfullscreen=""></iframe>
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2981.440262849888!2d39.253757!3d-6.830676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x586d3256c7115062!2sBungoni!5e1!3m2!1sen!2stz!4v1569706570012!5m2!1sen!2stz" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                      </div>
                  </div>
              </div>
