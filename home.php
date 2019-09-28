@@ -88,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" data-logo="assets/img/logo-hi.png"></div>
+            <div class="mobile-menu" data-logo="assets/img/LOGO_2.png"></div>
         </nav>
         <!-- Navbar End -->
         <section class="bg-gray">
