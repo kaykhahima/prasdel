@@ -60,15 +60,17 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#">
                                     Institutions
                                 </a>
+<!--
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="post-job">Add Job</a></li>
                                     <li><a class="dropdown-item" href="manage-jobs">Manage Jobs</a></li>
                                     <li><a class="dropdown-item" href="manage-applications">Manage Applications</a></li>
                                     <li><a class="dropdown-item" href="browse-resumes">Browse Resumes</a></li>
                                 </ul>
+-->
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="pricing">
