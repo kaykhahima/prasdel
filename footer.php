@@ -24,7 +24,7 @@
                     <div class="widget">
                         <h3 class="block-title">Quick Links</h3>
                         <ul class="menu">
-                            <li><a href="browse-jobs">Browse Companies</a></li>
+                            <li><a href="organization-page">Browse Companies</a></li>
                             <li><a href="about">About Us</a></li>
                             <li><a href="pricing">Pricing</a></li>
                             <li><a href="contact">Contact</a></li>
