@@ -331,10 +331,9 @@
                             <div class="product-content">
                                 <h3 class="product-title"><a href="#">AmazeTech</a></h3>
                                 <div class="tags">
-                                    <span><i class="lni-briefcase"></i> Software Company</span>
                                     <span><i class="lni-map-marker"></i> New York</span>
                                 </div>
-                                <a href="#" class="btn btn-common">5 Open Job</a>
+                                <a href="#" class="btn btn-common">5 Open Applications</a>
                             </div>
                         </div>
                     </div>
@@ -346,10 +345,9 @@
                             <div class="product-content">
                                 <h3 class="product-title"><a href="#">MagNews</a></h3>
                                 <div class="tags">
-                                    <span><i class="lni-briefcase"></i> Software Company</span>
                                     <span><i class="lni-map-marker"></i> New York</span>
                                 </div>
-                                <a href="#" class="btn btn-common">5 Open Job</a>
+                                <a href="#" class="btn btn-common">5 Open Applications</a>
                             </div>
                         </div>
                     </div>
@@ -361,10 +359,9 @@
                             <div class="product-content">
                                 <h3 class="product-title"><a href="#">Facebook</a></h3>
                                 <div class="tags">
-                                    <span><i class="lni-briefcase"></i> Software Company</span>
                                     <span><i class="lni-map-marker"></i> New York</span>
                                 </div>
-                                <a href="#" class="btn btn-common">5 Open Job</a>
+                                <a href="#" class="btn btn-common">5 Open Applications</a>
                             </div>
                         </div>
                     </div>
@@ -376,10 +373,9 @@
                             <div class="product-content">
                                 <h3 class="product-title"><a href="#">Play Store</a></h3>
                                 <div class="tags">
-                                    <span><i class="lni-briefcase"></i> Software Company</span>
                                     <span><i class="lni-map-marker"></i> New York</span>
                                 </div>
-                                <a href="#" class="btn btn-common">5 Open Job</a>
+                                <a href="#" class="btn btn-common">5 Open Applications</a>
                             </div>
                         </div>
                     </div>
@@ -391,10 +387,9 @@
                             <div class="product-content">
                                 <h3 class="product-title"><a href="#">MagNews</a></h3>
                                 <div class="tags">
-                                    <span><i class="lni-briefcase"></i> Software Company</span>
                                     <span><i class="lni-map-marker"></i> New York</span>
                                 </div>
-                                <a href="#" class="btn btn-common">5 Open Job</a>
+                                <a href="#" class="btn btn-common">5 Open Applications</a>
                             </div>
                         </div>
                     </div>

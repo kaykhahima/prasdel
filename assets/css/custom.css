@@ -92,6 +92,9 @@ body {
     font-size: 12px;
     line-height: 20px;
 }
+#loader-1:before, #loader-1:after {
+  border-top-color: #024b6d;
+}
 
 
 
@@ -233,6 +236,25 @@ footer .menu li a {
 
 #subscribe-form .form-group .btn-common {
     background: #d9aa3a;
+}
+
+/* ==========================================================================
+   all applications page
+   ========================================================================== */
+
+.job-search-form .button {
+    background: #024b6d;
+}
+#featured .job-featured:hover {
+  border-color: #024b6d;
+}
+.full-time {
+     color: #024b6d;
+    background: #024b6d25;
+}
+#featured .job-featured .content .tags span i {
+    margin-right: 5px;
+    color: #024b6d;
 }
 
 /*organization*/

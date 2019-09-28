@@ -17,56 +17,50 @@
 
 
     <!-- Main container Start -->
-    <div class="about section">
+    <div class="about section mb-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-7 col-md-6 col-xs-12">
                     <div class="about-content">
-                        <h3>About Job Career</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est modi, saepe hic esse maxime quasi, sapiente ex debitis quis dolorum unde, neque quibusdam eveniet nobis enim porro repudiandae nesciunt quidem.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni delectus soluta adipisci beatae ullam quisquam, quia recusandae rem assumenda, praesentium porro sequi eaque doloremque tenetur incidunt officiis explicabo optio perferendis.</p>
-                        <a href="#" class="btn btn-common">Learn More</a>
+                        <h3>About PRASDEL</h3>
+                        <p class="text-justify">PRASDEL (Practical Skills Development Link) is a system that is conceived to allow students from different Tertiary level educational institutions to register themselves for acquisition of practical training attachments. The systems solves the challenges of students acquiring organisations for field / internship / Volunteer work as well as Organisations recruiting for suitable candidates for the same.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12">
-                    <img class="img-fluid float-right" src="assets/img/about/img1.jpg" alt="">
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <img class="img-fluid mt-5" src="assets/img/LOGO_2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about section mt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-6 col-xs-12 order-last">
+                    <div class="about-content">
+                        <h3>Objective</h3>
+                        <p class="text-justify">Our objective is to enable tertiary students to get connected with organizations that may place them for practical field, which will later assist them on gaining experience and exposure of the working environment before employment, as well as allowing organisations/employers to have exhaustive information and access to students who are undergoing different trainings in learning institutions, thus select those they need for offering of practical field placement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <img class="img-fluid" src="assets/img/favicon.png" width="160px" height="160px" alt="">
                 </div>
             </div>
         </div>
     </div>
     <!-- Main container End -->
 
-    <div class="container">
-    <div class="col-sm-6">
-        <div class="form-group">
-            <div class="input-group date" id="datetimepicker10" data-target-input="nearest">
-                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker10"/>
-                <div class="input-group-append" data-target="#datetimepicker10" data-toggle="datetimepicker">
-                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker10').datetimepicker({
-                viewMode: 'years'
-            });
-        });
-    </script>
-</div>
-
     <!-- Counter Section Start -->
-    <section id="counter" class="section bg-gray">
+    <section id="counter" class="section bg-white">
         <div class="container">
-            <div class="row">
+            <div class="row counters">
+
                 <!-- Start counter -->
                 <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="counter-box">
-                        <div class="icon"><i class="lni-home"></i></div>
+                        <div class="icon"><i class="lni-apartment"></i></div>
                         <div class="fact-count">
-                            <h3><span class="counter">800</span></h3>
-                            <p>Jobs Posted</p>
+                            <h3><span class="counter">80</span></h3>
+                            <p>Organizations</p>
                         </div>
                     </div>
                 </div>
@@ -76,8 +70,8 @@
                     <div class="counter-box">
                         <div class="icon"><i class="lni-briefcase"></i></div>
                         <div class="fact-count">
-                            <h3><span class="counter">80</span></h3>
-                            <p>All Companies</p>
+                            <h3><span class="counter">900</span></h3>
+                            <p>Volunteer Opps</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +81,8 @@
                     <div class="counter-box">
                         <div class="icon"><i class="lni-pencil-alt"></i></div>
                         <div class="fact-count">
-                            <h3><span class="counter">900</span></h3>
-                            <p>Resumes</p>
+                            <h3><span class="counter">480</span></h3>
+                            <p>Internship Opps</p>
                         </div>
                     </div>
                 </div>
@@ -96,10 +90,10 @@
                 <!-- Start counter -->
                 <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="counter-box">
-                        <div class="icon"><i class="lni-save"></i></div>
+                        <div class="icon"><i class="lni-users"></i></div>
                         <div class="fact-count">
-                            <h3><span class="counter">1200</span></h3>
-                            <p>Applications</p>
+                            <h3><span class="counter">1200</span>+</h3>
+                            <p>Applicants</p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +108,6 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">How It Works?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -123,7 +116,7 @@
                             <i class="lni-user"></i>
                         </span>
                         <h4>Create an Account</h4>
-                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                        <p>Create an account by  <a href="register.php">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -131,8 +124,8 @@
                         <span class="process-icon">
                             <i class="lni-search"></i>
                         </span>
-                        <h4>Search Jobs</h4>
-                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                        <h4>Search for Applications</h4>
+                        <p>Search for any application or you could simply <a href="application-page.php"> browse all applications</a> and select your choice.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -141,7 +134,7 @@
                             <i class="lni-cup"></i>
                         </span>
                         <h4>Apply</h4>
-                        <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers find place best.</p>
+                        <p>Click on Apply and wait for feedback from a respective Organization. You will be notified soon.</p>
                     </div>
                 </div>
             </div>
@@ -149,69 +142,6 @@
     </section>
     <!-- How It Work Section End -->
 
-    <!-- Testimonial Section Start -->
-    <section id="testimonial" class="section bg-gray">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Clients Review</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                    <div id="testimonials" class="touch-slider owl-carousel">
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="author">
-                                    <div class="img-thumb">
-                                        <img src="assets/img/testimonial/img1.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="content-inner">
-                                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
-                                    <div class="author-info">
-                                        <h2><a href="#">Jessica</a></h2>
-                                        <span>Senior Accountant</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="author">
-                                    <div class="img-thumb">
-                                        <img src="assets/img/testimonial/img2.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="content-inner">
-                                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
-                                    <div class="author-info">
-                                        <h2><a href="#">John Doe</a></h2>
-                                        <span>Project Menager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="author">
-                                    <div class="img-thumb">
-                                        <img src="assets/img/testimonial/img3.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="content-inner">
-                                    <p class="description">Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui Morbi quam enim, cursus non erat pretium veh icula finibus ex stibulum venenatis viverra dui.</p>
-                                    <div class="author-info">
-                                        <h2><a href="#">Helen</a></h2>
-                                        <span>Engineer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonial Section End -->
+
 
     <?php include 'footer.php';?>

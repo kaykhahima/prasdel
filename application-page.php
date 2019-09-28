@@ -58,26 +58,55 @@
                      </div>
                      <div class="content">
                          <h3><a href="job-details">Company Name</a></h3>
-                         <p class="brand">Internship</p>
                          <div class="tags">
-                             <span><i class="lni-map-marker"></i>Dar Es Salaam</span>
-<!--                             <span><i class="lni-user"></i>John Smith</span>-->
+                             <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
+                             <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>
+                             <span><i class="lni-calendar"></i>12/12/2019 - 12/3/2020</span>
                          </div>
-                         <a href="#"><span class="full-time">Full Time</span></a>
+                         <a href="#"><span class="full-time">Internship</span></a>
                      </div>
                  </div>
              </div>
-<!--
-             <div class="col-12 text-center mt-4">
-                 <a href="#" class="btn btn-border">Browse All Jobs</a>
+             <div class="col-lg-4 col-md-6 col-xs-12">
+                 <div class="job-featured">
+                     <div class="icon">
+                         <img src="assets/img/features/img1.png" alt="">
+                     </div>
+                     <div class="content">
+                         <h3><a href="job-details">Company Name</a></h3>
+                         <div class="tags">
+                             <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
+                             <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>
+                             <span><i class="lni-calendar"></i>12/12/2019 - 12/3/2020</span>
+                         </div>
+                         <a href="#"><span class="full-time">Volunteer</span></a>
+                     </div>
+                 </div>
              </div>
--->
+             <div class="col-lg-4 col-md-6 col-xs-12">
+                 <div class="job-featured">
+                     <div class="icon">
+                         <img src="assets/img/features/img1.png" alt="">
+                     </div>
+                     <div class="content">
+                         <h3><a href="job-details">Company Name</a></h3>
+                         <div class="tags">
+                             <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
+                             <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>
+                             <span><i class="lni-calendar"></i>12/12/2019 - 12/3/2020</span>
+                         </div>
+                         <a href="#"><span class="full-time">Field</span></a>
+                     </div>
+                 </div>
+             </div>
+
          </div>
      </div>
  </section>
  <!-- Featured Section End -->
 
  <!-- Listings Section Start -->
+ <!--
  <section id="job-listings" class="section">
      <div class="container">
          <div class="row">
@@ -210,6 +239,7 @@
          </div>
      </div>
  </section>
+-->
  <!-- Listings Section End -->
 
 
