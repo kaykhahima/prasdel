@@ -103,7 +103,7 @@
                         <div class="contents">
                             <h2 class="head-title mt-2" style="color:#d9aa3a;">Are you seeking <br> for an internship <br> or volunteering? <br> Need an IPT <br>placement?</h2>
                             <div class="welcome-text">
-                                <h2 class="head-title">Are you seeking for an internship or <br> volunteering? Need an IPT placement?</h2>
+                                <h2 class="head-title"  style="color:#d9aa3a;">Are you seeking for an internship or <br> volunteering? Need an IPT placement?</h2>
                             </div>
 
                         </div>
