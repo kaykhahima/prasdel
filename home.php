@@ -228,7 +228,7 @@
                                 <h3>We've made it easier <br> for you.</h3>
                             </div>
                             <div class="col-md-12">
-                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                                <p>We aim to connect you with organizations that may place you for an Internship, volunteering or field training, which will later assist on gaining experience and exposure of the working environment.</p>
                             </div>
                             <div class="col-md-12 cta-btn cta-btn-display-lg">
                                 <a class="btn btn-common" href="aim">learn more</a>
@@ -260,10 +260,11 @@
                                 <h3>Are you an Organization <br> in need of volunteers or <br> interns?</h3>
                             </div>
                             <div class="col-md-12">
-                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                                <p>We assist you with exhaustive information and access to students who are undergoing different trainings in learning institutions and select those in need for offering of internship programmes, volunteering opportunities and practical field placement.</p>
+<!--                                <p>We assist</p>-->
                             </div>
                             <div class="col-md-12 cta-btn cta-btn-display-lg">
-                                <a class="btn btn-common" href="#">learn more</a>
+                                <a class="btn btn-common" href="register#organization">get started</a>
                             </div>
                         </div>
                     </div>
@@ -273,7 +274,7 @@
                         <img class="img-fluid" src="assets/svg/search.svg" alt="">
                     </div>
                     <div class="col-md-12 cta-btn cta-btn-display-sm mt-4">
-                        <a class="btn btn-common" href="#">learn more</a>
+                        <a class="btn btn-common" href="register#organization">learn more</a>
                     </div>
                 </div>
             </div>
@@ -295,7 +296,7 @@
                                 <h3>1,000+ Institutions</h3>
                             </div>
                             <div class="col-md-12">
-                                <p>Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 600,000 companies worldwide. The right job is out there.</p>
+                                <p>More than 1000 learning institutions registered today. Discover different opportunities that will assist you in gaining further knowledge and competence on your field of study.</p>
                             </div>
                             <div class="col-md-12 cta-btn cta-btn-display-lg">
                                 <a class="btn btn-common" href="#">explore more</a>
@@ -323,7 +324,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Discover Companies that need <br> you.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+                <p>With today's most popular companies, many are in need of your skills that could be effective on them.<br> Discover now.</p>
             </div>
             <div class=" wow fadeIn" data-wow-delay="0.5s">
                 <div id="new-products" class="owl-carousel">
@@ -410,7 +411,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Affordable packages <br> tailored for you.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+                <p>We did not just tailor random packages. We've tailored packages, packages special for you.</p>
             </div>
 
             <div class="row pricing-tables">
@@ -489,8 +490,7 @@
     <section id="testimonial" class="section bg-gray">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Hear what or clients <br> say.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque dignissim quam et <br> metus effici turac fringilla lorem facilisis.</p>
+                <h2 class="section-title">Hear what our clients say.</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
