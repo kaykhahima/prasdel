@@ -26,7 +26,7 @@
                 <div class="col-md-10 offset-md-1 mt-5">
                     <div class="about-content text-center">
                         <h3>Aim</h3>
-                        <p >The Government of United Republic of Tanzania has been challenged by some Intellectuals,
+                        <p>The Government of United Republic of Tanzania has been challenged by some Intellectuals,
                             Politicians and Employers to make some amendments in its Education System since most of
                             graduates from Tanzania’s High Learning Institutions seem not to be competent based on their
                             academic qualifications when entering employment market. <br><br>
@@ -51,7 +51,7 @@
     </div>
     <!-- Main container End -->
 
-      <!-- How It Work Section Start -->
+    <!-- How It Work Section Start -->
     <section class="how-it-works section bg-white pt-3">
         <div class="container">
             <div class="row">

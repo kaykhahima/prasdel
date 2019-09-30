@@ -694,7 +694,7 @@ button:focus {
   min-width: 190px;
   border: none;
   background-color: #fff;
-/*  white-space: nowrap;*/
+  white-space: nowrap;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
