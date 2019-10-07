@@ -243,6 +243,16 @@ body {
     border-top-color: #093266;
 }
 
+.lni-chevron-right::before {
+    content: "\e93e";
+    color: #093266;
+}
+
+nav .lni-chevron-down {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
 
 
 /* ==========================================================================
@@ -392,7 +402,18 @@ a:focus {
    back to top button
    ========================================================================== */
 .back-to-top {
-    background: #093266;
+    background: #f2c00b;
+    border-color: #f2c00b;
+    border-radius: 4px;
+}
+
+.back-to-top i {
+    color: #333;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 /* ==========================================================================
@@ -524,6 +545,30 @@ footer .menu li a:hover {
     font-size: 35px;
 }
 
+/* ==========================================================================
+   faq page
+   ========================================================================== */
+.panel-default .panel-heading {
+    padding: 0px 20px;
+    outline: none;
+    border-radius: 4px;
+    background: linear-gradient(-190deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%) !important;
+    border: 1px solid #093266;
+    width: 100%;
+    box-shadow: none;
+}
+
+.panel-default .panel-heading a {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 35px 15px 0px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
 /*organization*/
 
 .styled-select > select {
@@ -536,11 +581,12 @@ footer .menu li a:hover {
     background-color: #FFF;
     border-radius: 30px;
     border: 1px solid #ececec;
-    border-radius: 30px;
+    border-radius: 4px;
     color: #9a9a9a;
     padding: 0 15px;
     display: block;
 }
+
 .right-sideabr .list-item li a:hover {
     color: #f2c00b;
 }
@@ -566,6 +612,11 @@ footer .menu li a:hover {
     #browse-jobs h3,
     p {
         text-align: center;
+    }
+
+    .about h3,
+    p {
+        text-align: left;
     }
 
     .counters p {
@@ -642,10 +693,37 @@ footer .menu li a:hover {
         -ms-transition: all 0.3s ease-in-out;
     }
 
+    .dropdown-menu {
+        margin: 0;
+        padding: 10px;
+        display: none;
+        position: absolute;
+        z-index: 99;
+        min-width: 190px;
+        border: none;
+        background-color: #fff;
+        white-space: nowrap;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        animation: fadeIn 0.4s;
+        -webkit-animation: fadeIn 0.4s;
+        -moz-animation: fadeIn 0.4s;
+        -o-animation: fadeIn 0.4s;
+        -ms-animation: fadeIn 0.4s;
+    }
+
     .lni-chevron-down:before {
         content: "\e93a";
         color: #093266;
     }
+    nav .undisplayed .lni-chevron-down {
+    display: none;
+}
+
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -683,6 +761,10 @@ footer .menu li a:hover {
 
     #browse-jobs .text-wrapper {
         padding-bottom: 0px;
+    }
+
+    .about-content {
+        margin-bottom: 10px;
     }
 }
 

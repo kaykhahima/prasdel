@@ -16,7 +16,7 @@
  <!-- Page Header End -->
 
  <!-- Main container Start -->
- <div class="policy section">
+ <div class="policy section bg-gray">
      <div class="container">
          <div class="row">
              <div class="col-12">

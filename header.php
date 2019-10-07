@@ -39,12 +39,12 @@
                                 </ul>
 -->
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown undisplayed">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    organisations
+                                    Organisations <i class="lni-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="organization-page">Browse organisations</a></li>
+                                    <li><a class="dropdown-item" href="organization-page">Browse Organisations</a></li>
                                     <li><a class="dropdown-item" href="application-page">Browse Applications</a></li>
                                 </ul>
                             </li>

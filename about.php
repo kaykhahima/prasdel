@@ -20,7 +20,7 @@
     <div class="about section mb-0 bg-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-xs-12 mb-3">
                     <div class="about-content">
 
                         <h3 class="objective-border mb-0">About us.</h3>

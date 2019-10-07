@@ -67,7 +67,7 @@
                                              <div class="help-block with-errors"></div>
                                          </div>
                                      </div>
-                                     <div class="col-lg-12 col-md-12 col-xs-12 mb-3 mt-0 job-search-form">
+                                     <div class="col-lg-6 col-md-6 col-xs-12 mb-3 mt-0 job-search-form">
                                          <div class="form-group">
                                              <div class="search-category-container">
                                                  <label class="styled-select">
@@ -87,7 +87,7 @@
                                              <div class="help-block with-errors"></div>
                                          </div>
                                      </div>
-                                     <div class="col-lg-6 col-md-6 col-xs-6 mb-3 mt-0 job-search-form">
+                                     <div class="col-lg-12 col-md-12 col-xs-12 mb-3 mt-0 job-search-form">
                                          <div class="form-group">
                                              <div class="search-category-container">
                                                  <label class="styled-select">

@@ -46,9 +46,9 @@
                                 </ul>
 -->
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown undisplayed">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Organisations
+                                    Organisations <i class="lni-chevron-down "></i>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="organization-page">Browse Organisations</a></li>
