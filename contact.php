@@ -16,7 +16,7 @@
  <!-- Page Header End -->
 
  <!-- Contact Section Start -->
- <section id="contact" class="section">
+ <section id="contact" class="section bg-light">
      <div class="contact-form">
          <div class="container">
              <div class="row contact-form-area">

@@ -14,7 +14,7 @@
                          <div class="row justify-content-center">
                              <div class="col-lg-5 col-md-5 col-xs-12">
                                  <div class="form-group">
-                                     <input class="form-control" type="text" placeholder="Application Title or Organization Name">
+                                     <input class="form-control" type="text" placeholder="Application Title or organisation Name">
                                  </div>
                              </div>
                              <div class="col-lg-5 col-md-5 col-xs-12">

@@ -7,14 +7,14 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="inner-header">
-                     <h3>Browse Organizations</h3>
+                     <h3>Browse organisations</h3>
                  </div>
                  <div class="job-search-form bg-cyan job-featured-search">
                      <form>
                          <div class="row justify-content-center">
                              <div class="col-lg-5 col-md-5 col-xs-12">
                                  <div class="form-group">
-                                     <input class="form-control" type="text" placeholder="Organization Name">
+                                     <input class="form-control" type="text" placeholder="organisation Name">
                                  </div>
                              </div>
                              <div class="col-lg-5 col-md-5 col-xs-12">

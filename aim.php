@@ -15,7 +15,7 @@
     <!-- Page Header End -->
 
     <!-- Main container Start -->
-    <div class="about section text-center mt-0">
+    <div class="about section bg-gray text-center mt-0">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
@@ -48,43 +48,10 @@
 
             </div>
         </div>
+        <a href="register" class="btn btn-common mt-1">Sign Up Now <i class="lni-chevron-right"> </i></a>
     </div>
     <!-- Main container End -->
 
-    <!-- How It Work Section Start -->
-    <section class="how-it-works section bg-white pt-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="work-process">
-                        <span class="process-icon">
-                            <i class="lni-user"></i>
-                        </span>
-                        <h4>Create an Account</h4>
-                        <p>Create an account by <a href="register">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="work-process step-2">
-                        <span class="process-icon">
-                            <i class="lni-search"></i>
-                        </span>
-                        <h4>Search for Applications</h4>
-                        <p>Search for any application or you could simply <a href="application-page"> browse all applications</a> and select your choice.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="work-process step-3">
-                        <span class="process-icon">
-                            <i class="lni-cup"></i>
-                        </span>
-                        <h4>Apply</h4>
-                        <p>Click on Apply and wait for feedback from a respective Organization. You will be notified soon.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- How It Work Section End -->
+
 
     <?php include 'footer.php';?>

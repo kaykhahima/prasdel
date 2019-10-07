@@ -13,7 +13,7 @@
                             <span class="lni-menu"></span>
                             <span class="lni-menu"></span>
                         </button>
-                        <a href="home" class="navbar-brand"><img src="assets/img/LOGO_2.png" width="200px" height="56px" alt=""></a>
+                        <a href="home" class="navbar-brand"><img src="assets/img/logo-white.png" width="200px" height="56px" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -41,17 +41,19 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Organizations
+                                    organisations
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="organization-page">Browse Organizations</a></li>
+                                    <li><a class="dropdown-item" href="organization-page">Browse organisations</a></li>
                                     <li><a class="dropdown-item" href="application-page">Browse Applications</a></li>
                                 </ul>
                             </li>
+<!--
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" >
                                     Institutions
                                 </a>
+-->
 <!--
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="post-job">Add Job</a></li>
@@ -60,7 +62,7 @@
                                     <li><a class="dropdown-item" href="browse-resumes">Browse Resumes</a></li>
                                 </ul>
 -->
-                            </li>
+<!--                            </li>-->
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="pricing">
                                     Subscriptions

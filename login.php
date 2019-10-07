@@ -16,7 +16,7 @@
  <!-- Page Header End -->
 
  <!-- Content section Start -->
- <section id="content" class="section-padding">
+ <section id="content" class="section-padding bg-gray">
      <div class="container">
          <div class="row justify-content-center">
              <div class="col-lg-5 col-md-6 col-xs-12">

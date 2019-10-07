@@ -16,7 +16,7 @@
  <!-- Page Header End -->
 
  <!-- Content section Start -->
- <section id="content" class="section-padding">
+ <section id="content" class="section-padding bg-gray">
      <div class="container">
          <div class="row justify-content-center">
              <div class="col-lg-8 col-md-6 col-xs-12">
@@ -29,7 +29,7 @@
                                      <a class="nav-link active" href="#applicant" data-toggle="tab">Applicant</a>
                                  </li>
                                  <li class="nav-item">
-                                     <a class="nav-link" href="#organization" data-toggle="tab">Organization</a>
+                                     <a class="nav-link" href="#organization" data-toggle="tab">Organisation</a>
                                  </li>
                                  <li class="nav-item" style="display:none;">
                                      <a class="nav-link" href="#supervisor" data-toggle="tab">Supervisor</a>
@@ -117,13 +117,13 @@
                              </form>
                          </div>
                          <div class="tab-pane" role="tabpanel" id="organization">
-                             <h3 class="mt-2 mb-0">Organization</h3>
+                             <h3 class="mt-2 mb-0">organisation</h3>
                              <p class="text-center mb-4">Please complete to create Your account</p>
                              <form class="form">
                                  <div class="row">
                                      <div class="col-md-12">
                                          <div class="form-group">
-                                             <input type="text" class="form-control" id="name" name="name" placeholder="Company Name" required data-error="Please enter your name">
+                                             <input type="text" class="form-control" id="name" name="name" placeholder="Organisation Name" required data-error="Please enter your name">
                                              <div class="help-block with-errors"></div>
                                          </div>
                                      </div>

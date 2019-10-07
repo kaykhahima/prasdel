@@ -16,7 +16,7 @@
  <!-- Page Header End -->
 
  <!-- Start Content -->
- <div class="section">
+ <div class="section  bg-gray">
      <div class="container">
          <div class="row">
              <div class="col-lg-4 col-md-4 col-xs-12">

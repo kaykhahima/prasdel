@@ -17,32 +17,38 @@
 
 
     <!-- Main container Start -->
-    <div class="about section mb-0">
+    <div class="about section mb-0 bg-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-6 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="about-content">
-                        <h3>About PRASDEL</h3>
-                        <p class="text-justify">PRASDEL (Practical Skills Development Link) is a system that is conceived to allow students from different Tertiary level educational institutions to register themselves for acquisition of practical training attachments. The systems solves the challenges of students acquiring organisations for field / internship / Volunteer work as well as Organisations recruiting for suitable candidates for the same.</p>
+
+                        <h3 class="objective-border mb-0">About us.</h3>
+                        <i class="lni-minus"></i>
+
                     </div>
+                    <p>PRASDEL (Practical Skills Development Link) is a system that is conceived to allow students from different Tertiary level educational institutions to register themselves for acquisition of practical training attachments. The systems solves the challenges of students acquiring organisations for field / internship / Volunteer work as well as Organisations recruiting for suitable candidates for the same.</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <img class="img-fluid mt-5" src="assets/img/LOGO_2.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="about section mt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-md-6 col-xs-12 order-last">
+                <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="about-content">
-                        <h3>Objective</h3>
-                        <p class="text-justify">Our objective is to enable tertiary students to get connected with organizations that may place them for practical field, which will later assist them on gaining experience and exposure of the working environment before employment, as well as allowing organisations/employers to have exhaustive information and access to students who are undergoing different trainings in learning institutions, thus select those they need for offering of practical field placement.</p>
+                        <h3 class="objective-border mb-0">Objective.</h3>
+                        <i class="lni-minus"></i>
                     </div>
+                    <p>Our objective is to enable tertiary students to get connected with organisations that may place them for practical field, which will later assist them on gaining experience and exposure of the working environment before employment, as well as allowing organisations/employers to have exhaustive information and access to students who are undergoing different trainings in learning institutions, thus select those they need for offering of practical field placement.</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="img-fluid" src="assets/img/favicon.png" width="160px" height="160px" alt="">
+                <div class="col-lg-6 col-md-6 col-xs-12 mt-4">
+                    <div class="about-content">
+                        <h3 class="objective-border mb-0">Mission.</h3>
+                        <i class="lni-minus"></i>
+                    </div>
+                    <p>PRASDEL (Practical Skills Development Link) is a system that is conceived to allow students from different Tertiary level educational institutions to register themselves for acquisition of practical training attachments. The systems solves the challenges of students acquiring organisations for field / internship / Volunteer work as well as Organisations recruiting for suitable candidates for the same.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 mt-4">
+                    <div class="about-content">
+                        <h3 class="objective-border mb-0">Vision.</h3>
+                        <i class="lni-minus"></i>
+                    </div>
+                    <p>Our objective is to enable tertiary students to get connected with organisations that may place them for practical field, which will later assist them on gaining experience and exposure of the working environment before employment, as well as allowing organisations/employers to have exhaustive information and access to students who are undergoing different trainings in learning institutions, thus select those they need for offering of practical field placement.</p>
                 </div>
             </div>
         </div>
@@ -60,7 +66,7 @@
                         <div class="icon"><i class="lni-apartment"></i></div>
                         <div class="fact-count">
                             <h3><span class="counter">80</span></h3>
-                            <p>Organizations</p>
+                            <p>organisations</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +110,7 @@
     <!-- Counter Section End -->
 
     <!-- How It Work Section Start -->
-    <section class="how-it-works section">
+    <section class="how-it-works section bg-gray">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">How It Works?</h2>
@@ -116,7 +122,7 @@
                             <i class="lni-user"></i>
                         </span>
                         <h4>Create an Account</h4>
-                        <p>Create an account by  <a href="register.php">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
+                        <p>Create an account by <a href="register.php">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -134,7 +140,7 @@
                             <i class="lni-cup"></i>
                         </span>
                         <h4>Apply</h4>
-                        <p>Click on Apply and wait for feedback from a respective Organization. You will be notified soon.</p>
+                        <p>Click on Apply and wait for feedback from a respective organisation. You will be notified soon.</p>
                     </div>
                 </div>
             </div>

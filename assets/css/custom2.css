@@ -1,0 +1,185 @@
+/*backgrounds*/
+.bg-gold {
+    background-color: #f2c00b !important;
+}
+
+.bg-blue {
+    background: linear-gradient(180deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 17px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    line-height: 37px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.theme-header {
+    width: 100%;
+    border-bottom: 0.001em solid #fff;
+}
+
+.landing-page {
+    background: linear-gradient(-115deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%);
+    height: 100vh;
+}
+
+.hero-area .contents h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 25px;
+    text-align: left;
+    /*    padding-top: 50px;*/
+}
+
+.hero-area .contents p {
+    color: #9a9a9a;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.hero-area .intro-img img {
+    display: block;
+    height: 400px;
+    width: 700px;
+    /*    max-width: 100%;*/
+}
+
+.searcher {
+    padding-top: 50px;
+}
+
+/*sign up btn*/
+.button-group .button {
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    position: relative;
+    outline: none !important;
+    background: #f2c00b;
+    /*    background: linear-gradient(to right, rgb(250, 195, 23) 0%, rgb(255, 228, 0) 50%, rgb(250, 195, 23) 100%);*/
+    color: #333;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 9px 21px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    z-index: 1;
+    margin-top: 12px;
+    text-transform: inherit;
+}
+
+.form-control {
+    width: 100%;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.styled-select {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.job-search-form .search-category-container .styled-select > select {
+    background: transparent;
+    font-size: 14px;
+    line-height: 25px;
+    border: 0;
+    border-radius: 4px;
+    height: 46px;
+    border: 1px solid #ececec;
+    color: #495057;
+    padding: 10px 20px;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.btn-common {
+    background: #f2c00b;
+    color: #333;
+    border-radius: 4px;
+
+}
+
+.job-search-form .button {
+    font-size: 15px;
+    line-height: 14px;
+    text-transform: inherit;
+    display: inline-block;
+    position: relative;
+    outline: none !important;
+    background: #f2c00b;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 16px 20px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    border-radius: 4px;
+    z-index: 1;
+
+}
+/*
+#browse-jobs .text-wrapper h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #fff;
+}
+#browse-jobs .text-wrapper p {
+    color: #ccc;
+}
+*/
+
+/*counter section*/
+#counter {
+    padding: 20px 10px 10px ;
+    border-radius: 0px;
+    color: #fff !important;
+}
+
+#counter .counter-box {
+    padding: 20px 0 10px;
+}
+
+#counter .counter-box h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#counter .counter-box .icon i {
+    font-size: 40px;
+    color: #333;
+}
