@@ -41,14 +41,14 @@
                         <h3 class="objective-border mb-0">Mission.</h3>
                         <i class="lni-minus"></i>
                     </div>
-                    <p>PRASDEL (Practical Skills Development Link) is a system that is conceived to allow students from different Tertiary level educational institutions to register themselves for acquisition of practical training attachments. The systems solves the challenges of students acquiring organisations for field / internship / Volunteer work as well as Organisations recruiting for suitable candidates for the same.</p>
+                    <p>To deliver the best soultions to meet the needs of both students and organisations.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 mt-4">
                     <div class="about-content">
                         <h3 class="objective-border mb-0">Vision.</h3>
                         <i class="lni-minus"></i>
                     </div>
-                    <p>Our objective is to enable tertiary students to get connected with organisations that may place them for practical field, which will later assist them on gaining experience and exposure of the working environment before employment, as well as allowing organisations/employers to have exhaustive information and access to students who are undergoing different trainings in learning institutions, thus select those they need for offering of practical field placement.</p>
+                    <p>Be the best solution to enabling students on gaining experience and exposure of their working environment.</p>
                 </div>
             </div>
         </div>
