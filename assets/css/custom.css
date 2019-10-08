@@ -608,7 +608,8 @@ footer .menu li a:hover {
 
 .page-header .lni-calendar:before,
 .page-header .lni-map-marker:before,
-.page-header .lni-chevron-right:before {
+.page-header .lni-chevron-right:before,
+.page-header .fa-city:before {
 
     color: #f2c00b;
 }

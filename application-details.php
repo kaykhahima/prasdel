@@ -8,14 +8,15 @@
              <div class="col-lg-8 col-md-6 col-xs-12">
                  <div class="breadcrumb-wrapper">
                      <div class="img-wrapper">
-                         <img src="assets/img/about/company-logo.png" alt="">
+                         <img src="http://via.placeholder.com/100" alt="">
                      </div>
                      <div class="content">
-                         <h3 class="product-title">App Developer</h3>
-                         <p class="brand">AmazeSoft</p>
+                         <h3 class="product-title">Application Title</h3>
+                         <div class="tags mt-2">
+                             <span><i class="fa fa-city"></i>Company Name</span>
+                         </div>
                          <div class="tags">
                              <span><i class="lni-map-marker"></i> Dar Es Salaam</span>
-                             <span><i class="lni-calendar"></i> Posted 26 June, 2020</span>
                          </div>
                      </div>
                  </div>
@@ -100,7 +101,7 @@
  <!-- Featured Section Start -->
  <section id="featured" class="section bg-gray pb-45">
      <div class="container">
-         <h4 class="small-title text-left">Similar Jobs</h4>
+         <h4 class="small-title text-left">Similar Applications</h4>
          <div class="row">
              <div class="col-lg-4 col-md-6 col-xs-12">
                  <div class="job-featured">
