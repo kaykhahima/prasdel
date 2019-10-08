@@ -52,6 +52,13 @@
                              </div>
                              <div class="col-md-6">
                                  <div class="form-group">
+                                     <label class="control-label">Category</label>
+                                     <input type="text" placeholder="Software Company" id="email" class="form-control" name="website" required data-error="Please enter your email">
+                                     <div class="help-block with-errors"></div>
+                                 </div>
+                             </div>
+                             <div class="col-md-6">
+                                 <div class="form-group">
                                      <label class="control-label">Webiste</label>
                                      <input type="text" placeholder="www.company.com" id="email" class="form-control" name="website" required data-error="Please enter your email">
                                      <div class="help-block with-errors"></div>
@@ -106,7 +113,7 @@
                                      <div class="help-block with-errors"></div>
                                  </div>
                              </div>
-                             <div class="col-md-12">
+                             <div class="col-md-6">
                                  <div class="form-group">
                                      <label class="control-label">Map</label>
                                      <input type="text" placeholder="Map" id="email" class="form-control" name="name" required data-error="Please enter your email">

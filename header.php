@@ -44,8 +44,8 @@
                                     Organisations <i class="lni-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="organization-page">Browse Organisations</a></li>
-                                    <li><a class="dropdown-item" href="application-page">Browse Applications</a></li>
+                                    <li><a class="dropdown-item" href="organizations">Browse Organisations</a></li>
+                                    <li><a class="dropdown-item" href="applications">Browse Applications</a></li>
                                 </ul>
                             </li>
 <!--

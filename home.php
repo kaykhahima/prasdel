@@ -51,8 +51,8 @@
                                     Organisations <i class="lni-chevron-down "></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="organization-page">Browse Organisations</a></li>
-                                    <li><a class="dropdown-item" href="application-page">Browse Applications</a></li>
+                                    <li><a class="dropdown-item" href="organizations">Browse Organisations</a></li>
+                                    <li><a class="dropdown-item" href="applications">Browse Applications</a></li>
                                 </ul>
                             </li>
 <!--
@@ -147,7 +147,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-xs-12">
-                                            <a href="browse-jobs" class="btn btn-common btn-block mt-1">Search <i class="lni-search"> </i></a>
+                                            <a href="browse-applications" class="btn btn-common btn-block mt-1">Search <i class="lni-search"> </i></a>
                                         </div>
                                     </div>
                                 </form>

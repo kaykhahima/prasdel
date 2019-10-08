@@ -1,0 +1,21 @@
+.dropdown-menu {
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: #909294;
+}
+.dropdown-item {
+    color: #909294;
+}
+ {
+    display: none;
+}
+.info-box-content .fa-check-circle:before {
+    color: #007bff;
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    padding-bottom: 0px;
+}

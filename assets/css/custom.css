@@ -546,6 +546,92 @@ footer .menu li a:hover {
 }
 
 /* ==========================================================================
+   browse applications page
+   ========================================================================== */
+.job-listings .btn-apply {
+    background: #f2c00b;
+    color: #333;
+    text-transform: uppercase;
+    line-height: 50px;
+    border: 2px solid #f2c00b;
+    padding: 7px 21px;
+    border-radius: 4px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.pagination li a {
+    border-radius: 50px !important;
+    padding: 5px 10px;
+    margin: 0 3px;
+    min-width: 40px;
+    height: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #f2c00b;
+    display: block;
+    color: #333;
+}
+
+.job-listings .btn-apply:hover {
+    color: #fff;
+    background: #f2c00b;
+}
+
+/* ==========================================================================
+   application details page
+   ========================================================================== */
+.page-header .breadcrumb-wrapper .product-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.page-header .breadcrumb-wrapper .content .brand {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.page-header .month-price {
+    background: #f2c00b;
+    color: #333;
+    border-radius: 4px;
+}
+
+.page-header .lni-calendar:before,
+.page-header .lni-map-marker:before,
+.page-header .lni-chevron-right:before {
+
+    color: #f2c00b;
+}
+
+/* ==========================================================================
+   open apps page
+   ========================================================================== */
+.job-listings {
+    padding: 20px 4px;
+}
+
+.job-listings .job-details .company-name {
+    font-size: 14px;
+    color: #666666;
+}
+
+.job-listings .job-details .company-neme {
+    font-size: 10px;
+    color: #666666;
+    padding: 2px 10px;
+}
+
+/* ==========================================================================
    faq page
    ========================================================================== */
 .panel-default .panel-heading {
@@ -719,9 +805,10 @@ footer .menu li a:hover {
         content: "\e93a";
         color: #093266;
     }
+
     nav .undisplayed .lni-chevron-down {
-    display: none;
-}
+        display: none;
+    }
 
 
 }
@@ -765,6 +852,30 @@ footer .menu li a:hover {
 
     .about-content {
         margin-bottom: 10px;
+    }
+
+    .job-listings i {
+        padding: 5px 0px 2px 10px;
+    }
+
+    .job-listings .btn-apply {
+        background: #f2c00b;
+        color: #333;
+        text-transform: uppercase;
+        line-height: 50px;
+        border: 2px solid #f2c00b;
+        padding: 7px 21px;
+        border-radius: 4px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        transition: all .4s ease;
+
+    }
+
+    .text-center {
+        text-align: left !important;
     }
 }
 
