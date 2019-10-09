@@ -75,13 +75,13 @@ body {
     outline: none;
 }
 
+
 .dropdown .dropdown-item:focus,
 .dropdown .dropdown-item:hover,
 .dropdown .dropdown-item.active {
     background: #093266;
-    color: #fff !important;
+    color: #f2c00b !important;
 }
-
 .slicknav_btn {
     margin: 14px 0;
     background-color: #093266;

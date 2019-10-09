@@ -1,4 +1,6 @@
- <?php include 'header.php';?>
+ <?php
+$pageTitle = "Applications";
+include 'header.php';?>
  <!-- Header Section End -->
 
  <!-- Page Header Start -->

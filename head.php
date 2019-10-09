@@ -1,3 +1,4 @@
+<?php $slogan = "Imparting Working Skills To Future Graduates";?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,7 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>PRASDEL | Imparting working skills to future graduates</title>
+    <title>PRASDEL | <?php echo $slogan;?></title>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/line-icons.css">

@@ -1,6 +1,7 @@
 <?php
-include 'header.php';
 $pageTitle = "Organisations";
+include 'header.php';
+
 ?>
 
 

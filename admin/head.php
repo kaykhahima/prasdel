@@ -1,10 +1,8 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="dashboard">Admin - PRASDEL</a>
+    <a class="navbar-brand mr-1" href="dashboard"><img src="imgs/logo.png" width="200px" height="56px" alt=""></a>
 
-    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-        <i class="fas fa-bars"></i>
-    </button>
+
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-0">
@@ -17,6 +15,13 @@
                 <a class="dropdown-item" href="logout">Logout</a>
             </div>
         </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="../home.php" id="userDropdown" role="button"><i class="fas fa-globe fa-fw"></i>
+            </a>
+        </li>
+        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-bars"></i>
+        </button>
     </ul>
 
 </nav>
@@ -35,47 +40,46 @@
             <div class="modal-body">
                 <form class="form">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Organisation Name" required data-error="Please enter your name">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" class="form-control" placeholder="Organisation Name">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Location" id="email" class="form-control" name="Location" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" placeholder="Location" class="form-control" name="Location">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Branch" id="email" class="form-control" name="Location" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" placeholder="Branch" class="form-control" name="Branch">
                             </div>
 
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Website" required data-error="Please enter your name">
+                                <input type="text" class="form-control" placeholder="Website">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" placeholder="Address" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="password" placeholder="Password" class="form-control">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" placeholder="Address" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" placeholder="Retype Password" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="password" placeholder="Retype Password" id="email" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -101,7 +105,7 @@
 
 <!--  INSTITUTION MODAL-->
 
-   <div class="modal fade" id="addInstitution" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="addInstitution" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -113,47 +117,45 @@
             <div class="modal-body">
                 <form class="form">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Institution Name" required data-error="Please enter your name">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" class="form-control" placeholder="Institution Name">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Location" id="email" class="form-control" name="Location" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" placeholder="Location" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Branch" id="email" class="form-control" name="Location" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" placeholder="Branch" class="form-control">
                             </div>
 
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Website" required data-error="Please enter your name">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" class="form-control" placeholder="Website">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="email" placeholder="Email" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Address" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="text" placeholder="Address" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" placeholder="Retype Password" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                <div class="help-block with-errors"></div>
+                                <input type="password" placeholder="Password" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="password" placeholder="Retype Password" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-6">

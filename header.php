@@ -17,35 +17,23 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                            <li class="nav-item active">
+                            <li class="nav-item <?php if($pageTitle == 'Imparting Working Skills To Future Graduates'){echo 'active';}?>">
                                 <a class="nav-link" href="home">
                                     Home
                                 </a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="about">
+                            <li class="nav-item <?php if($pageTitle == 'About Us'){echo 'active';}?>">
+                                <a class="nav-link" href="about">
                                     About Us
                                 </a>
-<!--
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about">About</a></li>
-                                    <li><a class="dropdown-item" href="job-page">Job Page</a></li>
-                                    <li><a class="dropdown-item" href="job-details">Job Details</a></li>
-                                    <li><a class="dropdown-item" href="resume">Resume Page</a></li>
-                                    <li><a class="dropdown-item" href="privacy-policy">Privacy Policy</a></li>
-                                    <li><a class="dropdown-item" href="faq">FAQ</a></li>
-                                    <li><a class="dropdown-item" href="pricing">Pricing Tables</a></li>
-                                    <li><a class="dropdown-item" href="contact">Contact</a></li>
-                                </ul>
--->
                             </li>
-                            <li class="nav-item dropdown undisplayed">
+                            <li class="nav-item dropdown undisplayed <?php if($pageTitle == 'Organisations' || $pageTitle == 'Applications'){echo 'active';}?>">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Organisations <i class="lni-chevron-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="organizations">Browse Organisations</a></li>
-                                    <li><a class="dropdown-item" href="applications">Browse Applications</a></li>
+                                    <li><a class="dropdown-item <?php if($pageTitle == 'Organisations'){echo 'active';}?>" href="organizations">Browse Organisations</a></li>
+                                    <li><a class="dropdown-item <?php if($pageTitle == 'Applications'){echo 'active';}?>" href="applications">Browse Applications</a></li>
                                 </ul>
                             </li>
 <!--
@@ -63,17 +51,17 @@
                                 </ul>
 -->
 <!--                            </li>-->
-                            <li class="nav-item dropdown">
+                            <li class="nav-item <?php if($pageTitle == 'Subscriptions'){echo 'active';}?>">
                                 <a class="nav-link" href="pricing">
                                     Subscriptions
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item <?php if($pageTitle == 'Contact'){echo 'active';}?>">
                                 <a class="nav-link" href="contact">
                                     Contact
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item <?php if($pageTitle == 'Login'){echo 'active';}?>">
                                 <a class="nav-link" href="login">Log In</a>
                             </li>
                             <li class="button-group">
