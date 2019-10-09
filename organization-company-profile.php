@@ -32,7 +32,7 @@ include 'header.php';?>
                          <div class="row">
                              <div class="col-md-12">
                                  <div class="thumb mb-3">
-                                     <img src="assets/img/resume/img-1.png" style="width:150px; height:150px;" alt="">
+                                    <img src="http://via.placeholder.com/150">
                                  </div>
                                  <div class="form-group">
                                      <div class="button-group">

@@ -678,6 +678,11 @@ footer .menu li a:hover {
     color: #f2c00b;
 }
 
+/*applicant*/
+
+.right-sideabr .list-item li a.active {
+    color: #f2c00b;
+}
 
 @media (min-width: 992px) {
     .welcome-text {

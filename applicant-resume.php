@@ -31,7 +31,7 @@ include 'header.php';?>
                      <a href="add-cv" id="submit" class="btn btn-common float-right mr-1">Edit <i class="lni-pencil"></i></a>
                      <div class="author-resume">
                          <div class="thumb mt-4">
-                             <img src="assets/img/resume/img-1.png" alt="">
+                             <img src="http://via.placeholder.com/150">
                          </div>
                          <div class="author-info">
                              <h3>Mark John Anderson</h3>
