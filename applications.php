@@ -59,7 +59,7 @@ include 'header.php';?>
                          <img src="assets/img/features/img1.png" alt="">
                      </div>
                      <div class="content">
-                         <h3><a href="job-details">Company Name</a></h3>
+                         <h3><a href="application-details">Company Name</a></h3>
                          <div class="tags">
                              <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
                              <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>
@@ -75,7 +75,7 @@ include 'header.php';?>
                          <img src="assets/img/features/img1.png" alt="">
                      </div>
                      <div class="content">
-                         <h3><a href="job-details">Company Name</a></h3>
+                         <h3><a href="application-details">Company Name</a></h3>
                          <div class="tags">
                              <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
                              <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>
@@ -91,7 +91,7 @@ include 'header.php';?>
                          <img src="assets/img/features/img1.png" alt="">
                      </div>
                      <div class="content">
-                         <h3><a href="job-details">Company Name</a></h3>
+                         <h3><a href="application-details">Company Name</a></h3>
                          <div class="tags">
                              <span><i class="lni-map-marker"></i>Dar Es Salaam</span> <br>
                              <span><i class="lni-alarm-clock"></i>8 Weeks</span><br>

@@ -1,4 +1,6 @@
- <?php include 'header.php';?>
+ <?php
+$pageTitle = "Sign Up";
+include 'header.php';?>
  <!-- Header Section End -->
 
  <!-- Page Header Start -->

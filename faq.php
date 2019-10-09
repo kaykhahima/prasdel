@@ -1,4 +1,6 @@
- <?php include 'header.php';?>
+ <?php
+$pageTitle = "FAQs";
+include 'header.php';?>
  <!-- Header Section End -->
 
  <!-- Page Header Start -->
@@ -7,7 +9,7 @@
          <div class="row">
              <div class="col-lg-12">
                  <div class="inner-header">
-                     <h3>FAQ</h3>
+                     <h3>FAQs</h3>
                  </div>
              </div>
          </div>

@@ -1,4 +1,6 @@
-    <?php include 'head.php';?>
+    <?php
+include 'head.php';
+?>
     <!-- Header Section Start -->
     <header id="home" class="hero-area">
         <!-- Navbar Start -->

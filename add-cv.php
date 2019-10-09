@@ -1,4 +1,6 @@
- <?php include 'header.php';?>
+ <?php
+$pageTitle = "Add Resume";
+include 'header.php';?>
  <!-- Header Section End -->
 
  <!-- Page Header Start -->
@@ -16,7 +18,7 @@
  <!-- Page Header End -->
 
  <!-- Start Content -->
- <div id="content">
+ <div id="content" class="bg-gray">
      <div class="container">
          <div class="row">
              <div class="col-md-4 col-sm-4 col-xs-12">

@@ -1,4 +1,6 @@
-    <?php include 'header.php';?>
+    <?php
+$pageTitle = "Aim";
+include 'header.php';?>
 
     <!-- Page Header Start -->
     <div class="page-header">

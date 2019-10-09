@@ -1,4 +1,6 @@
- <?php include 'header.php';?>
+ <?php
+$pageTitle = "Company Profile";
+include 'header.php';?>
  <!-- Header Section End -->
 
  <!-- Page Header Start -->

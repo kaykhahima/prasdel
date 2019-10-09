@@ -25,8 +25,8 @@
                     <div class="widget">
                         <h3 class="block-title">Quick Links</h3>
                         <ul class="menu">
-                            <li><a href="organization-page">Browse Organisations</a></li>
-                            <li><a href="application-page">Browse Applications</a></li>
+                            <li><a href="organizations">Browse Organisations</a></li>
+                            <li><a href="applications">Browse Applications</a></li>
                             <li><a href="about">About Us</a></li>
                             <li><a href="contact">Contact</a></li>
                         </ul>
