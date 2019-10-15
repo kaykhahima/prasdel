@@ -81,8 +81,6 @@ input[type=number]:focus,
     background-color: #f8f9fa;
 }
 
-/*
-.table, .table a {
-    font-size: 11px;
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    height: 150px;
 }
-*/

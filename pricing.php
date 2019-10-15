@@ -31,15 +31,14 @@ include 'header.php';?>
                          <div class="icon">
                              <i class="lni-rocket"></i>
                          </div>
-                         <h2>Professional</h2>
+                         <h2>Beginner</h2>
                          <ul>
-                             <li>Post 1 Job</li>
-                             <li>No Featured Job</li>
-                             <li>Edit Your Job Listing</li>
-                             <li>Manage Application</li>
-                             <li>30-day Expired</li>
+                             <li>View Vacancies</li>
+                             <li>Create CV/Resume</li>
+                             <li>Download CV/Resume</li>
+                             <li>No applying for vacancies</li>
                          </ul>
-                         <div class="price"><span>$</span>0<span>/Month</span></div>
+                         <div class="price"><span>Tzs</span>0<span>/Month</span></div>
                      </div>
                      <div class="plan-button">
                          <a href="#" class="btn btn-border">Get Started</a>
@@ -53,15 +52,14 @@ include 'header.php';?>
                          <div class="icon">
                              <i class="lni-drop"></i>
                          </div>
-                         <h2>Advance</h2>
+                         <h2>Advanced</h2>
                          <ul>
-                             <li>Post 1 Job</li>
-                             <li>No Featured Job</li>
-                             <li>Edit Your Job Listing</li>
-                             <li>Manage Application</li>
-                             <li>30-day Expired</li>
+                             <li>View Vacancies</li>
+                             <li>Create CV/Resume</li>
+                             <li>Download CV/Resume</li>
+                             <li>Apply for two (2) vacancies</li>
                          </ul>
-                         <div class="price"><span>$</span>20<span>/Month</span></div>
+                         <div class="price"><span>Tzs</span>1000<span>/Month</span></div>
                      </div>
                      <div class="plan-button">
                          <a href="#" class="btn btn-border">Get Started</a>
@@ -77,13 +75,12 @@ include 'header.php';?>
                          </div>
                          <h2>Premium</h2>
                          <ul>
-                             <li>Post 1 Job</li>
-                             <li>No Featured Job</li>
-                             <li>Edit Your Job Listing</li>
-                             <li>Manage Application</li>
-                             <li>30-day Expired</li>
+                             <li>View Vacancies</li>
+                             <li>Create CV/Resume</li>
+                             <li>Download CV/Resume</li>
+                             <li>Unlimited Applications</li>
                          </ul>
-                         <div class="price"><span>$</span>40<span>/Month</span></div>
+                         <div class="price"><span>Tzs</span>3000<span>/Month</span></div>
                      </div>
                      <div class="plan-button">
                          <a href="#" class="btn btn-border">Get Started</a>
