@@ -75,7 +75,7 @@ include 'header.php';
                             <td>This Institution</td>
                             <td>Premium</td>
                             <td>
-                                <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
@@ -88,7 +88,7 @@ include 'header.php';
                             <td>This Institution</td>
                             <td>Ordinary</td>
                             <td>
-                                <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
@@ -101,7 +101,7 @@ include 'header.php';
                             <td>This Institution</td>
                             <td>Premium</td>
                             <td>
-                                <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
