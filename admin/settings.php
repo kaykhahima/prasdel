@@ -31,16 +31,6 @@ $pageTitle = "Profile Settings";
                                     <label for="validationDefault01">Username:</label>
                                     <input type="text" class="form-control" id="validationDefault01" value="Username" required>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Logo</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <label>Change your password here</label>
                             <div class="form-row">

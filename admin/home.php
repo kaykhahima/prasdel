@@ -24,43 +24,67 @@ $pageTitle = "Home Page";
             <!-- DataTables Example -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-12">
                         <form>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Title</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Title">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Title</label>
+                                        <select class="form-control">
+                                            <option>Applicant Call-to-Action</option>
+                                            <option>Organisation Call-to-Action</option>
+                                            <option>Institution Call-to-Action</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Image</label>
-                                    <div class="input-group">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="exampleInputFile">
-                                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Title</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Title">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Link</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. https://example.com">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Image</label>
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                            </div>
                                         </div>
+                                        <small class="form-text text-muted">
+                                            Must be at least 540 x 540 and less than 1Mb
+                                        </small>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Content</label>
+                                        <textarea class="form-control" name="content" id="editor" rows="7" placeholder="Contents here..."></textarea>
+                                        <script>
+                                            ClassicEditor
+                                                .create(document.querySelector('#editor'))
+                                                .then(editor => {
+                                                    console.log(editor);
+                                                })
+                                                .catch(error => {
+                                                    console.error(error);
+                                                });
+                                        </script>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button class="btn btn-primary mb-3" type="submit">Submit</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Content</label>
-                                    <textarea class="form-control" rows="7"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Link</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="eg. https://example.com" >
-                                </div>
-                            </div>
-                               <div class="col-md-12">
-                                <div class="form-group">
-                                    <button class="btn btn-primary mb-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-
                         </form>
                     </div>
                 </div>

@@ -24,43 +24,57 @@ $pageTitle = "Testimonials";
             <!-- DataTables Example -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-12">
                         <form>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="eg. Jane Doe">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. Jane Doe">
+                                    </div>
                                 </div>
-                            </div>
-                               <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Occupation</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="eg. Lecturer, Student">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Occupation</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. Lecturer, Student">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Image</label>
-                                    <div class="input-group">
-                                        <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="exampleInputFile">
-                                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Image</label>
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                            </div>
                                         </div>
+                                        <small class="form-text text-muted">
+                                            Must be 52 x 52 and less than 1Mb
+                                        </small>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Testimonial</label>
+                                        <textarea class="form-control" name="content" id="testimonial" rows="7" placeholder="Type your testimonial here..."></textarea>
+                                        <script>
+                                            ClassicEditor
+                                                .create(document.querySelector('#testimonial'))
+                                                .then(editor => {
+                                                    console.log(editor);
+                                                })
+                                                .catch(error => {
+                                                    console.error(error);
+                                                });
+                                        </script>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button class="btn btn-primary mb-3" type="submit">Submit</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Content</label>
-                                    <textarea class="form-control" rows="7"></textarea>
-                                </div>
-                            </div>
-                               <div class="col-md-12">
-                                <div class="form-group">
-                                    <button class="btn btn-primary mb-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-
                         </form>
                     </div>
                 </div>

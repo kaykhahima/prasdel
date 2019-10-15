@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Organisations";
+$pageTitle = "Applicants";
 include 'header.php';
 
 ?>
@@ -20,36 +20,33 @@ include 'header.php';
                     <a href="#">Dashboard</a>
                 </li>
                 <li class="breadcrumb-item"><?php echo $pageTitle; ?></li>
-                <button type="button" class="btn btn-primary btn-sm ml-auto ml-0" data-toggle="modal" data-target="#addOrganisation" href="#"><i class="fas fa-fw fa-plus-circle"></i> Add</button>
             </ol>
             <div class="row">
                 <div class="col-md-4">
                     <div class="info-box bg-primary">
-                        <span class="info-box-icon"><i class="fa fa-city"></i></span>
+                        <span class="info-box-icon"><i class="fa fa-user-graduate"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Total Organisations</span>
+                            <span class="info-box-text">Total Applicants</span>
                             <span class="info-box-number">500</span>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box bg-success">
-                        <span class="info-box-icon"><i class="fa fa-check-circle"></i></span>
+                </div><div class="col-md-4">
+                    <div class="info-box bg-warning">
+                        <span class="info-box-icon"><i class="fa fa-star"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Verified Organisations</span>
-                            <span class="info-box-number">220</span>
+                            <span class="info-box-text">Premium Members</span>
+                            <span class="info-box-number">200</span>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="info-box bg-danger">
-                        <span class="info-box-icon"><i class="fa fa-minus"></i></span>
+                </div><div class="col-md-4">
+                    <div class="info-box bg-info">
+                        <span class="info-box-icon"><i class="fa fa-user-friends"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Pending Verifications</span>
-                            <span class="info-box-number">280</span>
+                            <span class="info-box-text">Ordinary Members</span>
+                            <span class="info-box-number">300</span>
                         </div>
                     </div>
                 </div>
@@ -59,51 +56,52 @@ include 'header.php';
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Location</th>
                             <th>Phone</th>
                             <th>Email</th>
-                            <th>Website</th>
-                            <th>Address</th>
+                            <th>Gender</th>
+                            <th>Reg. No</th>
+                            <th>Institution</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>TYD</td>
-                            <td>Dar Es Salaam</td>
+                            <td>John Doe</td>
                             <td>+123 456 789 000</td>
-                            <td>tyd@domain.com</td>
-                            <td>www.tyd.com</td>
-                            <td> P.O. Box 756 Dar Es Salaam</td>
+                            <td>jd@domain.com</td>
+                            <td>Male</td>
+                            <td>200100200304</td>
+                            <td>This Institution</td>
+                            <td>Premium</td>
                             <td>
                                 <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Verify"><i class="fa fa-check-circle"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
                         <tr>
-                            <td>Organisation</td>
-                            <td>Dar Es Salaam</td>
+                            <td>Jane Doe</td>
                             <td>+123 456 789 000</td>
-                            <td>organisation@domain.com</td>
-                            <td>www.organisation.com</td>
-                            <td> P.O. Box 756 Dar Es Salaam</td>
+                            <td>jd@domain.com</td>
+                            <td>Female</td>
+                            <td>200100200306</td>
+                            <td>This Institution</td>
+                            <td>Ordinary</td>
                             <td>
                                 <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Verify"><i class="fa fa-check-circle"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
                         <tr>
-                            <td>Company</td>
-                            <td>Dar Es Salaam</td>
+                            <td>Kate McCall</td>
                             <td>+123 456 789 000</td>
-                            <td>company@domain.com</td>
-                            <td>www.company.com</td>
-                            <td> P.O. Box 756 Dar Es Salaam</td>
+                            <td>km@domain.com</td>
+                            <td>Female</td>
+                            <td>200100200310</td>
+                            <td>This Institution</td>
+                            <td>Premium</td>
                             <td>
                                 <a class="btn btn-sm btn-info" href="edit-organisation" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Verify"><i class="fa fa-check-circle"></i></a>
                                 <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>

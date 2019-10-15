@@ -30,7 +30,7 @@ $pageTitle = "Contact Page";
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label>Address</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. P.O.Box 1234 Arusha">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. Uhuru Road, Azikiwe St. Building #">
                                     </div>
                                 </div>
                                 <div class="col-md-4">

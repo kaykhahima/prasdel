@@ -42,7 +42,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="organizations">Browse Organisations</a></li>
-                                    <li><a class="dropdown-item" href="applications">Browse Applications</a></li>
+                                    <li><a class="dropdown-item" href="applications">Browse Vacancies</a></li>
                                 </ul>
                             </li>
 <!--

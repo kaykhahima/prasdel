@@ -94,6 +94,7 @@ include 'header.php';?>
                             <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
                             <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
                             <li><a class="instagram" href="#"><i class="lni-instagram"></i></a></li>
+                            <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
                  </div>

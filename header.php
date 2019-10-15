@@ -35,7 +35,7 @@ include 'head.php';
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item <?php if($pageTitle == 'Organisations'){echo 'active';}?>" href="organizations">Browse Organisations</a></li>
-                                    <li><a class="dropdown-item <?php if($pageTitle == 'Applications'){echo 'active';}?>" href="applications">Browse Applications</a></li>
+                                    <li><a class="dropdown-item <?php if($pageTitle == 'Applications'){echo 'active';}?>" href="applications">Browse Vacancies</a></li>
                                 </ul>
                             </li>
 <!--

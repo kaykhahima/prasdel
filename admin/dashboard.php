@@ -40,8 +40,8 @@ $pageTitle = "Dashboard";
                                 </div>
                                 <div class="mr-5">500</div>
                             </div>
-                            <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View Organisations</span>
+                            <a class="card-footer text-white clearfix small z-1" href="organisations">
+                                <span class="float-left">View All Organisations</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>
                                 </span>
@@ -60,10 +60,10 @@ $pageTitle = "Dashboard";
                                 <div class="mr-5">
                                     <h3>Institutions</h3>
                                 </div>
-                                <div class="mr-5">500</div>
+                                <div class="mr-5">381</div>
                             </div>
-                            <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View All</span>
+                            <a class="card-footer text-white clearfix small z-1" href="institutions">
+                                <span class="float-left">View All Institutions</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>
                                 </span>
@@ -80,12 +80,12 @@ $pageTitle = "Dashboard";
                                     <h1> <i class="fas fa-fw fa-user-graduate"></i></h1>
                                 </div>
                                 <div class="mr-5">
-                                    <h3>Students</h3>
+                                    <h3>Applicants</h3>
                                 </div>
                                 <div class="mr-5">500</div>
                             </div>
-                            <a class="card-footer text-white clearfix small z-1" href="#">
-                                <span class="float-left">View Details</span>
+                            <a class="card-footer text-white clearfix small z-1" href="applicants">
+                                <span class="float-left">View all Applicants</span>
                                 <span class="float-right">
                                     <i class="fas fa-angle-right"></i>
                                 </span>
@@ -108,8 +108,8 @@ $pageTitle = "Dashboard";
                                 </div>
                             </div>
                             <!-- /.card-header -->
-                            <div class="card-body">
-                                <table id="dataTable" class="table table-bordered table-striped responsive">
+                            <div class="card-body mb-2 table-responsive">
+                                <table id="dataTable" class="table table-hover">
                                     <thead>
                                         <tr>
                                             <th>Organisation Name</th>
@@ -143,14 +143,22 @@ $pageTitle = "Dashboard";
                                             <td>345</td>
                                             <td>Location</td>
                                         </tr>
-                                    </tbody>
-                                    <tfoot>
                                         <tr>
-                                            <th>Organisation Name</th>
-                                            <th>Recruited Applicants</th>
-                                            <th>Location</th>
+                                            <td>Trident</td>
+                                            <td>345</td>
+                                            <td>Location</td>
                                         </tr>
-                                    </tfoot>
+                                        <tr>
+                                            <td>Trident</td>
+                                            <td>345</td>
+                                            <td>Location</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trident</td>
+                                            <td>345</td>
+                                            <td>Location</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <!-- /.card-body -->
@@ -194,7 +202,7 @@ $pageTitle = "Dashboard";
                                     <!-- /.info-box-content -->
                                 </div>
                                 <!-- /.info-box -->
-                                <div class="info-box bg-danger">
+                                <div class="info-box bg-warning">
                                     <span class="info-box-icon"><i class="fa fa-minus"></i></span>
 
                                     <div class="info-box-content">

@@ -80,3 +80,9 @@ input[type=number]:focus,
     text-decoration: none;
     background-color: #f8f9fa;
 }
+
+/*
+.table, .table a {
+    font-size: 11px;
+}
+*/

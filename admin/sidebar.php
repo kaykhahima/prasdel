@@ -15,6 +15,11 @@
                <i class="fas fa-fw fa-university"></i>
                <span>Institutions</span></a>
        </li>
+       <li class="nav-item <?php if($pageTitle == 'Applicants'){echo 'active';}?>">
+           <a class="nav-link" href="applicants">
+               <i class="fas fa-fw fa-users"></i>
+               <span>Applicants</span></a>
+       </li>
        <li class="nav-item dropdown <?php if($pageTitle == 'Home Page' || $pageTitle == 'About Us Page' || $pageTitle == 'Contact Page' || $pageTitle == 'Testimonials' || $pageTitle == 'Privacy Policy' || $pageTitle == 'FAQs') {echo 'active';}?>">
            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                <i class="fas fa-fw fa-file"></i>

@@ -18,7 +18,6 @@
   <script src="js/demo/datatables-demo.js"></script>
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/adminlte.js"></script>
-
 </body>
 
 </html>

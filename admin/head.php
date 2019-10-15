@@ -6,17 +6,8 @@
 
     <!-- Navbar -->
     <ul class="navbar-nav ml-auto ml-0">
-        <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Admin <i class="fas fa-caret-down fa-fw"></i>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="settings">Settings</a>
-                <a class="dropdown-item" href="logout">Logout</a>
-            </div>
-        </li>
         <li class="nav-item dropdown">
-            <a class="nav-link" href="../home.php" id="userDropdown" role="button"><i class="fas fa-globe fa-fw"></i>
+            <a class="nav-link" target="_blank" href="../home.php" id="userDropdown" role="button"><i class="fas fa-globe fa-fw"></i>
             </a>
         </li>
         <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">

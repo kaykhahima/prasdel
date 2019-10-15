@@ -24,7 +24,7 @@ $pageTitle = "Privacy Policy";
             <!-- DataTables Example -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-12">
                         <form>
                             <div class="col-md-12">
                                 <div class="form-group">
@@ -34,8 +34,18 @@ $pageTitle = "Privacy Policy";
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Content</label>
-                                    <textarea class="form-control" rows="7"></textarea>
+                                    <label>Privacy Policy Statement</label>
+                                    <textarea class="form-control" name="content" id="privacy-policy" rows="7" placeholder="Type your statement here..."></textarea>
+                                        <script>
+                                            ClassicEditor
+                                                .create(document.querySelector('#privacy-policy'))
+                                                .then(editor => {
+                                                    console.log(editor);
+                                                })
+                                                .catch(error => {
+                                                    console.error(error);
+                                                });
+                                        </script>
                                 </div>
                             </div>
                                <div class="col-md-12">
