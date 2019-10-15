@@ -72,6 +72,16 @@ include 'header.php';
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Retype password" class="form-control">
+                                    </div>
+                                </div>
                             </div>
                             <input type="button" class="btn btn-primary btn-block mb-2" value="Update">
                         </form>
