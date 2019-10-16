@@ -22,7 +22,7 @@ include 'header.php';
                 <li class="breadcrumb-item"><?php echo $pageTitle; ?></li>
             </ol>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="info-box bg-primary">
                         <span class="info-box-icon"><i class="fa fa-user-graduate"></i></span>
 
@@ -31,7 +31,8 @@ include 'header.php';
                             <span class="info-box-number">500</span>
                         </div>
                     </div>
-                </div><div class="col-md-4">
+                </div>
+                <div class="col-md-3">
                     <div class="info-box bg-warning">
                         <span class="info-box-icon"><i class="fa fa-star"></i></span>
 
@@ -40,7 +41,18 @@ include 'header.php';
                             <span class="info-box-number">200</span>
                         </div>
                     </div>
-                </div><div class="col-md-4">
+                </div>
+                <div class="col-md-3">
+                    <div class="info-box bg-info">
+                        <span class="info-box-icon"><i class="fa fa-user-friends"></i></span>
+
+                        <div class="info-box-content">
+                            <span class="info-box-text">Ordinary Members</span>
+                            <span class="info-box-number">300</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
                     <div class="info-box bg-info">
                         <span class="info-box-icon"><i class="fa fa-user-friends"></i></span>
 
