@@ -40,11 +40,42 @@ $pageTitle = "FAQs";
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="btn btn-primary mb-3" type="submit">Submit</button>
+                                    <button class="btn btn-primary mb-3" type="submit">Add</button>
                                 </div>
                             </div>
 
                         </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="table-responsive">
+                            <table id="dataTable" class="table table-hover table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Question</th>
+                                        <th>Answer</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Question 1</td>
+                                        <td>Answer 1</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-success" href="edit-faqs" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Question 1</td>
+                                        <td>Answer 1</td>
+                                        <td>
+                                            <a class="btn btn-sm btn-success" href="edit-faqs" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

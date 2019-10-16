@@ -89,7 +89,7 @@ $pageTitle = "Contact Page";
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <button class="btn btn-primary mb-3" type="submit">Submit</button>
+                                        <button class="btn btn-primary mb-3" type="submit">Save</button>
                                     </div>
                                 </div>
                             </div>

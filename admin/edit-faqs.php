@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-$pageTitle = "Privacy Policy";
+$pageTitle = "Edit FAQs";
 ?>
 
 
@@ -24,33 +24,23 @@ $pageTitle = "Privacy Policy";
             <!-- DataTables Example -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-5">
                         <form>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Title</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Title">
+                                    <label>Question</label>
+                                    <textarea class="form-control" rows="2"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Privacy Policy Statement</label>
-                                    <textarea class="form-control" name="content" id="privacy-policy" rows="7" placeholder="Type your statement here..."></textarea>
-                                        <script>
-                                            ClassicEditor
-                                                .create(document.querySelector('#privacy-policy'))
-                                                .then(editor => {
-                                                    console.log(editor);
-                                                })
-                                                .catch(error => {
-                                                    console.error(error);
-                                                });
-                                        </script>
+                                    <label>Answer</label>
+                                    <textarea class="form-control" rows="3"></textarea>
                                 </div>
                             </div>
-                               <div class="col-md-12">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="btn btn-primary mb-3" type="submit">Save</button>
+                                    <button class="btn btn-primary mb-3" type="submit">Update</button>
                                 </div>
                             </div>
 

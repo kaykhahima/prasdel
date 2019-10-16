@@ -71,48 +71,11 @@ $pageTitle = "Testimonials";
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <button class="btn btn-primary mb-3" type="submit">Add</button>
+                                        <button class="btn btn-primary mb-3" type="submit">Update</button>
                                     </div>
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="table-responsive">
-                            <table id="dataTable" class="table table-hover table-sm">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Occupation</th>
-                                        <th>Image URL</th>
-                                        <th>Testimonial</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>John Doe</td>
-                                        <td>Lecturer</td>
-                                        <td>image.jpg</td>
-                                        <td>Lorem Ipsum</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>John Doe</td>
-                                        <td>Lecturer</td>
-                                        <td>image.jpg</td>
-                                        <td>Lorem Ipsum</td>
-                                        <td>
-                                            <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
                 </div>
             </div>
