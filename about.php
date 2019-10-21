@@ -147,7 +147,7 @@ include 'header.php';
                         <i class="lni-user"></i>
                     </span>
                     <h4>Create an Account</h4>
-                    <p>Create an account by <a href="register.php">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
+                    <p>Create an account by <a href="register">signing up here</a>. Once you are registered you can now go ahead and apply.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -156,7 +156,7 @@ include 'header.php';
                         <i class="lni-search"></i>
                     </span>
                     <h4>Search for Applications</h4>
-                    <p>Search for any application or you could simply <a href="application-page.php"> browse all applications</a> and select your choice.</p>
+                    <p>Search for any application or you could simply <a href="applications"> browse all applications</a> and select your choice.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
