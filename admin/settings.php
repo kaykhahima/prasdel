@@ -26,12 +26,6 @@ $pageTitle = "Profile Settings";
                 <div class="row">
                     <div class="col-md-5">
                         <form>
-                            <div class="form-row">
-                                <div class="col-md-12 mb-3">
-                                    <label for="validationDefault01">Username:</label>
-                                    <input type="text" class="form-control" id="validationDefault01" value="Username" required>
-                                </div>
-                            </div>
                             <label>Change your password here</label>
                             <div class="form-row">
                                 <div class="col-md-12 mb-3">

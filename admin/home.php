@@ -55,23 +55,28 @@ $pageTitle = "Home Page";
                                         <div class="input-group">
                                             <div class="custom-file">
                                                 <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <label class="custom-file-label" for="exampleInputFile">Insert Image</label>
                                             </div>
                                         </div>
                                         <small class="form-text text-muted">
-                                            Must be at least 540 x 540 and less than 1Mb
+                                            Image size must be at least 540px x 540px
                                         </small>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Content</label>
-                                        <textarea class="form-control" name="content" id="editor" rows="7" placeholder="Contents here..."></textarea>
+                                        <div id="toolbar-container"></div>
+                                        <div id="editor">
+                                            <p>Type your content here</p>
+                                        </div>
                                         <script>
-                                            ClassicEditor
+                                            DecoupledEditor
                                                 .create(document.querySelector('#editor'))
                                                 .then(editor => {
-                                                    console.log(editor);
+                                                    const toolbarContainer = document.querySelector('#toolbar-container');
+
+                                                    toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                                                 })
                                                 .catch(error => {
                                                     console.error(error);
@@ -109,7 +114,6 @@ $pageTitle = "Home Page";
                                         <td>image.jpg</td>
                                         <td>
                                             <a class="btn btn-sm btn-success" href="edit-category" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit Category"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>

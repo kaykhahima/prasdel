@@ -45,7 +45,7 @@ $pageTitle = "Testimonials";
                                         <div class="input-group">
                                             <div class="custom-file">
                                                 <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <label class="custom-file-label" for="exampleInputFile">Insert Image</label>
                                             </div>
                                         </div>
                                         <small class="form-text text-muted">

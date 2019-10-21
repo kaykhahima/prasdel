@@ -67,7 +67,7 @@ include 'header.php';
                                         <div class="input-group">
                                             <div class="custom-file">
                                                 <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <label class="custom-file-label" for="exampleInputFile">Insert Logo</label>
                                             </div>
                                         </div>
                                     </div>

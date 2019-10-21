@@ -17,7 +17,36 @@
 
 </nav>
 
-<!--   ADD FOOD MODAL   -->
+
+
+<!-- CONFIRM DELETE -->
+<div class="modal fade" id="confirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <!--
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Delete</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+-->
+            <div class="modal-body text-center">
+                <i class="fa fa-times-circle mb-3 py-2" style="color:#dc3545; font-size: 72px;"></i>
+                <h4>Are you sure?</h4>
+                <p class="pt-2 px-4" style="color:#9a9a9a;">You are about to delete a record, this action can not be undone. Do you want to proceed?</p>
+                <div class="py-4">
+                    <button type="button" class="btn btn-secondary mx-2 px-4" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger px-4">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--   ADD ORGANISATION MODAL   -->
 
 <div class="modal fade" id="addOrganisation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -78,7 +107,7 @@
                                 <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" class="custom-file-input" id="exampleInputFile">
-                                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                        <label class="custom-file-label" for="exampleInputFile">Insert Logo</label>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +123,7 @@
     </div>
 </div>
 
-<!--  INSTITUTION MODAL-->
+<!-- ADD INSTITUTION MODAL-->
 
 <div class="modal fade" id="addInstitution" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -154,7 +183,7 @@
                                 <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" class="custom-file-input" id="exampleInputFile">
-                                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                        <label class="custom-file-label" for="exampleInputFile">Insert Logo</label>
                                     </div>
                                 </div>
                             </div>

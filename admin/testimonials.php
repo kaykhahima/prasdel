@@ -45,23 +45,28 @@ $pageTitle = "Testimonials";
                                         <div class="input-group">
                                             <div class="custom-file">
                                                 <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <label class="custom-file-label" for="exampleInputFile">Insert Image</label>
                                             </div>
                                         </div>
                                         <small class="form-text text-muted">
-                                            Must be 52 x 52 and less than 1Mb
+                                            Image size must be 52px x 52px
                                         </small>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Testimonial</label>
-                                        <textarea class="form-control" name="content" id="testimonial" rows="7" placeholder="Type your testimonial here..."></textarea>
+                                        <div id="testimonial-toolbar-container"></div>
+                                        <div id="testimonial">
+                                            <p>Type your content here</p>
+                                        </div>
                                         <script>
-                                            ClassicEditor
+                                            DecoupledEditor
                                                 .create(document.querySelector('#testimonial'))
                                                 .then(editor => {
-                                                    console.log(editor);
+                                                    const toolbarContainer = document.querySelector('#testimonial-toolbar-container');
+
+                                                    toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                                                 })
                                                 .catch(error => {
                                                     console.error(error);
@@ -96,8 +101,8 @@ $pageTitle = "Testimonials";
                                         <td>image.jpg</td>
                                         <td>Lorem Ipsum</td>
                                         <td>
-                                            <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                            <a class="btn btn-sm btn-success" href="edit-testimonial" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                            <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -106,8 +111,8 @@ $pageTitle = "Testimonials";
                                         <td>image.jpg</td>
                                         <td>Lorem Ipsum</td>
                                         <td>
-                                            <a class="btn btn-sm btn-success" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                            <a class="btn btn-sm btn-success" href="edit-testimonial" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
+                                            <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>

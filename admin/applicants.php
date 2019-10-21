@@ -43,11 +43,11 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="info-box bg-info">
+                    <div class="info-box bg-success">
                         <span class="info-box-icon"><i class="fa fa-user-friends"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Ordinary Members</span>
+                            <span class="info-box-text">Advanced Members</span>
                             <span class="info-box-number">300</span>
                         </div>
                     </div>
@@ -85,10 +85,10 @@ include 'header.php';
                             <td>Male</td>
                             <td>200100200304</td>
                             <td>This Institution</td>
-                            <td>Premium</td>
+                            <td>Beginner</td>
                             <td>
                                 <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -98,10 +98,10 @@ include 'header.php';
                             <td>Female</td>
                             <td>200100200306</td>
                             <td>This Institution</td>
-                            <td>Ordinary</td>
+                            <td>Advanced</td>
                             <td>
                                 <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
                         <tr>
@@ -114,7 +114,7 @@ include 'header.php';
                             <td>Premium</td>
                             <td>
                                 <a class="btn btn-sm btn-warning" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                             </td>
                         </tr>
                     </tbody>

@@ -30,7 +30,7 @@ $pageTitle = "Edit Category";
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label>Category</label>
-                                        <select class="form-control">
+                                        <select class="form-control" disabled>
                                             <option>Applicant Call-to-Action</option>
                                             <option>Organisation Call-to-Action</option>
                                             <option>Institution Call-to-Action</option>
@@ -55,7 +55,7 @@ $pageTitle = "Edit Category";
                                         <div class="input-group">
                                             <div class="custom-file">
                                                 <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <label class="custom-file-label" for="exampleInputFile">Insert Image</label>
                                             </div>
                                         </div>
                                         <small class="form-text text-muted">
@@ -66,12 +66,17 @@ $pageTitle = "Edit Category";
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Content</label>
-                                        <textarea class="form-control" name="content" id="editor" rows="7" placeholder="Contents here..."></textarea>
+                                        <div id="category-toolbar-container"></div>
+                                        <div id="category">
+                                            <p>Type your content here</p>
+                                        </div>
                                         <script>
-                                            ClassicEditor
-                                                .create(document.querySelector('#editor'))
+                                            DecoupledEditor
+                                                .create(document.querySelector('#category'))
                                                 .then(editor => {
-                                                    console.log(editor);
+                                                    const toolbarContainer = document.querySelector('#category-toolbar-container');
+
+                                                    toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                                                 })
                                                 .catch(error => {
                                                     console.error(error);

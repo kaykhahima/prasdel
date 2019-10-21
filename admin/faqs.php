@@ -62,7 +62,7 @@ $pageTitle = "FAQs";
                                         <td>Answer 1</td>
                                         <td>
                                             <a class="btn btn-sm btn-success" href="edit-faqs" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                            <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -70,7 +70,7 @@ $pageTitle = "FAQs";
                                         <td>Answer 1</td>
                                         <td>
                                             <a class="btn btn-sm btn-success" href="edit-faqs" role="button" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-alt"></i></a>
-                                            <a class="btn btn-sm btn-danger" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
+                                            <a class="btn btn-sm btn-danger" data-toggle="modal" data-target="#confirmDelete" role="button" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>

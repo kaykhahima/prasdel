@@ -28,19 +28,18 @@ $pageTitle = "Privacy Policy";
                         <form>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Title</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Title">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
                                     <label>Privacy Policy Statement</label>
-                                    <textarea class="form-control" name="content" id="privacy-policy" rows="7" placeholder="Type your statement here..."></textarea>
+                                    <div id="privacy-policy-toolbar-container"></div>
+                                        <div id="privacy-policy">
+                                            <p>Type your content here</p>
+                                        </div>
                                         <script>
-                                            ClassicEditor
+                                            DecoupledEditor
                                                 .create(document.querySelector('#privacy-policy'))
                                                 .then(editor => {
-                                                    console.log(editor);
+                                                    const toolbarContainer = document.querySelector('#privacy-policy-toolbar-container');
+
+                                                    toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                                                 })
                                                 .catch(error => {
                                                     console.error(error);
