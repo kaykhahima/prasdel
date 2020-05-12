@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
     <title>PRASDEL | <?php echo $slogan;?></title>
-
+<link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/line-icons.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">

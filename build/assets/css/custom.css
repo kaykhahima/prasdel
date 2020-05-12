@@ -82,17 +82,19 @@ body {
     background: #093266;
     color: #f2c00b !important;
 }
+
 .slicknav_btn {
     margin: 14px 0;
-    background-color: #093266;
+    background-color: #fff;
     padding: 8px 9px 7px;
 }
 
 .slicknav_nav {
-    background-color: #fff;
+    background-color: #041c42;
     overflow: auto;
-    max-height: 350px;
+    max-height: 400px;
     padding: 20px 10px;
+    height: auto;
 }
 
 .slicknav_menu img {
@@ -104,7 +106,7 @@ body {
     padding: 115px 0px 50px;
     position: relative;
     /*    background: url(../img/banner.png);*/
-    background: linear-gradient(290deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%);
+    background: #041c42;
 }
 
 .page-header .inner-header h3 {
@@ -403,12 +405,14 @@ a:focus {
    ========================================================================== */
 .testimonial-item .author .img-thumb img {
     border-radius: 50%;
-     width: 100%;
+    width: 100%;
 }
+
 .testimonial-item .author .img-thumb {
     width: 100px;
     height: 100px;
 }
+
 /* ==========================================================================
    back to top button
    ========================================================================== */
@@ -761,7 +765,7 @@ footer .menu li a:hover {
 
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 14px;
-        color: #093266;
+        /*        color: #093266;*/
         padding: 0 17px;
         letter-spacing: 0.5px;
         border-radius: 4px;
@@ -781,7 +785,8 @@ footer .menu li a:hover {
         margin-bottom: 2px;
         border-radius: 4px;
         font-size: 14px;
-        color: #093266;
+        /*        color: #093266;*/
+        color: #fff;
         text-decoration: none;
         display: inline-block;
         float: left;

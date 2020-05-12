@@ -38,13 +38,13 @@ include 'head.php';
                                     <li><a class="dropdown-item <?php if($pageTitle == 'Applications'){echo 'active';}?>" href="applications">Browse Vacancies</a></li>
                                 </ul>
                             </li>
-<!--
+                            <!--
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" >
                                     Institutions
                                 </a>
 -->
-<!--
+                            <!--
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="post-job">Add Job</a></li>
                                     <li><a class="dropdown-item" href="manage-jobs">Manage Jobs</a></li>
@@ -52,7 +52,7 @@ include 'head.php';
                                     <li><a class="dropdown-item" href="browse-resumes">Browse Resumes</a></li>
                                 </ul>
 -->
-<!--                            </li>-->
+                            <!--                            </li>-->
                             <li class="nav-item <?php if($pageTitle == 'Subscriptions'){echo 'active';}?>">
                                 <a class="nav-link" href="pricing">
                                     Subscriptions
@@ -73,7 +73,7 @@ include 'head.php';
                     </div>
                 </div>
             </div>
-            <div class="mobile-menu" data-logo="assets/img/LOGO_2.png"></div>
+            <div class="mobile-menu" data-logo="assets/img/logo-white.png"></div>
         </nav>
         <!-- Navbar End -->
     </header>
