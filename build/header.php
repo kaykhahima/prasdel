@@ -58,6 +58,7 @@ include 'head.php';
                                     Subscriptions
                                 </a>
                             </li>
+
                             <li class="nav-item <?php if($pageTitle == 'Contact'){echo 'active';}?>">
                                 <a class="nav-link" href="contact">
                                     Contact
