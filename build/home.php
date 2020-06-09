@@ -29,7 +29,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
 -->
                         <li class="nav-item <?php if($pageTitle == 'Imparting Working Skills To Future Graduates'){echo 'active';}?>">
                             <a class="nav-link dropdown-toggle" href="home">
-                                Home
+                                <i class="fa fa-md fa-home"></i>
                             </a>
                         </li>
                         <li class="nav-item <?php if($pageTitle == 'About Us'){echo 'active';}?>">
@@ -74,7 +74,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <a class="nav-link" href="login">Log in</a>
                         </li>
                         <li class="button-group">
-                            <a href="register" class="button btn btn-common">Sign up</a>
+                            <a href="register" class="button btn btn-common">Register <i class="lni-chevron-right"></i> </a>
                         </li>
                     </ul>
                 </div>
@@ -84,8 +84,8 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
     </nav>
     <!-- Navbar End -->
     <section class="landing-page">
-        <div class="container">
-            <div class="row">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
 
                 <div class="col-lg-7 col-md-12 col-xs-12 order-lg-2">
                     <div class="contents">
@@ -98,7 +98,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                 </div>
                 <div class="col-lg-5 col-md-12 col-xs-12 ">
                     <div class="contents searcher">
-                        <div class="job-search-form ">
+                        <div class="job-search-form">
                             <form>
                                 <div class="row searcher">
                                     <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
@@ -151,58 +151,6 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
 <!-- Header Section End -->
 
 <!-- Counter Section Start -->
-<section id="counter" class="section bg-gray w-75 mx-auto mt-4">
-    <div class="container">
-        <div class="row counters">
-
-            <!-- Start counter -->
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counter-box">
-                    <div class="icon"><i class="lni-apartment"></i></div>
-                    <div class="fact-count">
-                        <h3><span class="counter">80</span></h3>
-                        <p>Organisations</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End counter -->
-            <!-- Start counter -->
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counter-box">
-                    <div class="icon"><i class="lni-briefcase"></i></div>
-                    <div class="fact-count">
-                        <h3><span class="counter">900</span></h3>
-                        <p>Volunteer Opps</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End counter -->
-            <!-- Start counter -->
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counter-box">
-                    <div class="icon"><i class="lni-pencil-alt"></i></div>
-                    <div class="fact-count">
-                        <h3><span class="counter">480</span></h3>
-                        <p>Internship Opps</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End counter -->
-            <!-- Start counter -->
-            <div class="col-lg-3 col-md-6 col-xs-12">
-                <div class="counter-box">
-                    <div class="icon"><i class="lni-users"></i></div>
-                    <div class="fact-count">
-                        <h3><span class="counter">1200</span>+</h3>
-                        <p>Applicants</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End counter -->
-        </div>
-    </div>
-
-</section>
 <!-- Counter Section End -->
 
 <!-- student call to action Start -->

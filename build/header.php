@@ -68,7 +68,7 @@ include 'head.php';
                                 <a class="nav-link" href="login">Log In</a>
                             </li>
                             <li class="button-group">
-                                <a href="register" class="button btn btn-common">Sign up</a>
+                                <a href="register" class="button btn btn-common">Register</a>
                             </li>
                         </ul>
                     </div>

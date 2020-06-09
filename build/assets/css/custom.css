@@ -8,6 +8,7 @@ body {
 
 .landing-page {
     background: linear-gradient(90deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%) !important;
+    height: 100vh;
 }
 
 .bg-blue-grad-one {
