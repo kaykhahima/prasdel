@@ -247,7 +247,7 @@ body {
 
 .lni-chevron-right::before {
     content: "\e93e";
-    color: #093266;
+    /*    color: #093266;*/
 }
 
 nav .lni-chevron-down {
