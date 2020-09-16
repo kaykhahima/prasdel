@@ -85,59 +85,60 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
     <!-- Navbar End -->
     <section class="landing-page">
         <div class="container h-100">
-            <div class="row h-100 align-items-center">
+            <div class="row h-100">
 
-                <div class="col-lg-7 col-md-12 col-xs-12 order-lg-2">
+                <div class="col-lg-12 col-md-12 col-xs-12">
                     <div class="contents">
-                        <h2 class="head-title mt-2">Are you seeking <br> for an internship <br> or volunteering? <br> Need an IPT <br>placement?</h2>
-                        <div class="welcome-text">
-                            <h2 class="head-title" style="color:#d9aa3a;">Are you seeking for an internship or <br> volunteering? Need an IPT placement?</h2>
+                        <div class="col-md-7">
+                            <h1 class="head-title text-white display-4 py-5">Bold. Brighter. Better.</h1>
+                            <h5 class="text-white">Get the Right Job Vacancies & Careers in Tanzania</h5>
+                            <p class="text-white py-2">We aim to connect you with organizations that may place you for an Internship, volunteering or field training, which will later assist on gaining experience and exposure of the working environment.</p>
                         </div>
 
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-12 col-xs-12 ">
-                    <div class="contents searcher">
-                        <div class="job-search-form">
+                        <div class="container job-search-form">
                             <form>
-                                <div class="row searcher">
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
+                                <div class="row">
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
                                         <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Keyword, Skill, Interest">
+                                            <div class="search-category-container">
+                                                <label class="styled-select">
+                                                    <input class="form-control form-control-lg" type="text" placeholder="Keyword eg. Accountant, Marketing, Technician, etc">
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
                                         <div class="form-group">
                                             <div class="search-category-container">
                                                 <label class="styled-select">
                                                     <select>
-                                                        <option value="none">Internship, Volunteer, IPT</option>
+                                                        <option value="none">All Education Level</option>
+                                                        <option value="none">Cetificate Level</option>
+                                                        <option value="none">Diploma Level</option>
+                                                        <option value="none">Bachelor of Degree</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                            <i class="lni-graduation"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
+                                        <div class="form-group">
+                                            <div class="search-category-container">
+                                                <label class="styled-select">
+                                                    <select>
+                                                        <option value="none">All Categories</option>
                                                         <option value="none">Internship</option>
-                                                        <option value="none">Volunteer</option>
-                                                        <option value="none">IPT</option>
+                                                        <option value="none">Industrial Practical Training (Field)</option>
+                                                        <option value="none">Volunteering</option>
                                                     </select>
                                                 </label>
                                             </div>
                                             <i class="lni-chevron-down"></i>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12 mb-4">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <select>
-                                                        <option value="none">Locations</option>
-                                                        <option value="none">Dar Es Salaam</option>
-                                                        <option value="none">Arusha</option>
-                                                        <option value="none">Tanga</option>
-                                                    </select>
-                                                </label>
-                                            </div>
-                                            <i class="lni-map-marker"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-xs-12">
-                                        <a href="browse-applications" class="btn btn-common btn-block mt-1">Search <i class="lni-search"> </i></a>
+                                    <div class="col-lg-2 col-xs-12 px-lg-1 mb-2">
+                                        <button type="submit" class="button btn-block">Search <i class="lni-search"></i></button>
                                     </div>
                                 </div>
                             </form>

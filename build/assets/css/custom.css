@@ -7,8 +7,11 @@ body {
 }
 
 .landing-page {
-    background: linear-gradient(90deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%) !important;
-    height: 100vh;
+    background: url(../../images/header-img.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*    background: linear-gradient(90deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%) !important;*/
+    min-height: 100vh;
 }
 
 .bg-blue-grad-one {
@@ -159,6 +162,7 @@ body {
     width: 100%;
     padding: 9px 15px;
     font-size: 14px;
+    height: 46px;
     border-radius: 4px;
     border: 1px solid #ececec;
     -webkit-transition: all 0.3s;
@@ -268,14 +272,14 @@ nav .lni-chevron-down {
     font-weight: 700;
     line-height: 62px;
     margin-bottom: 25px;
-    text-align: right;
+    /*    text-align: right;*/
 }
 
 .hero-area .contents p {
     color: #9a9a9a;
     font-size: 14px;
     line-height: 26px;
-    text-align: right;
+    /*    text-align: right;*/
 }
 
 .job-search-form .btn {
