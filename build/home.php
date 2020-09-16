@@ -92,10 +92,10 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                         <div class="col-md-7">
                             <h1 class="head-title text-white display-4 py-5">Bold. Brighter. Better.</h1>
                             <h5 class="text-white">Get the Right Place For You.</h5>
-                            <p class="text-white py-2">We aim to connect you with organizations that may place you for an Internship, volunteering or field training, which assists you on gaining experience and exposure of the working environment.</p>
+                            <p class="text-white">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
                         </div>
 
-                        <div class="container job-search-form">
+                        <div class="job-search-form col-md-12">
                             <form>
                                 <div class="row">
                                     <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
