@@ -98,7 +98,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                         <div class="container job-search-form">
                             <form>
                                 <div class="row">
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
                                         <div class="form-group">
                                             <div class="search-category-container">
                                                 <label class="styled-select">
@@ -107,7 +107,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
                                         <div class="form-group">
                                             <div class="search-category-container">
                                                 <label class="styled-select">
@@ -122,7 +122,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                             <i class="lni-graduation"></i>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-2">
+                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
                                         <div class="form-group">
                                             <div class="search-category-container">
                                                 <label class="styled-select">
@@ -137,7 +137,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                             <i class="lni-chevron-down"></i>
                                         </div>
                                     </div>
-                                    <div class="col-lg-2 col-xs-12 px-lg-1 mb-2">
+                                    <div class="col-lg-2 col-xs-12 px-lg-1 mb-1">
                                         <button type="submit" class="button btn-block">Search <i class="lni-search"></i></button>
                                     </div>
                                 </div>
