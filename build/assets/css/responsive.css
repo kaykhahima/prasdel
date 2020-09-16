@@ -590,7 +590,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     .landing-page {
-        background: url(../../images/header-mobile-img.jpg) !important;
+        background: url(../../images/header-img-sm.jpg) !important;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh;
