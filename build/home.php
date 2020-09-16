@@ -91,8 +91,8 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                     <div class="contents">
                         <div class="col-md-7">
                             <h1 class="head-title text-white display-4 py-5">Bold. Brighter. Better.</h1>
-                            <h5 class="text-white">Get the Right Job Vacancies & Careers in Tanzania</h5>
-                            <p class="text-white py-2">We aim to connect you with organizations that may place you for an Internship, volunteering or field training, which will later assist on gaining experience and exposure of the working environment.</p>
+                            <h5 class="text-white">Get the Right Place For You.</h5>
+                            <p class="text-white py-2">We aim to connect you with organizations that may place you for an Internship, volunteering or field training, which assists you on gaining experience and exposure of the working environment.</p>
                         </div>
 
                         <div class="container job-search-form">
