@@ -14,6 +14,16 @@ body {
     min-height: 100vh;
 }
 
+.primary-color {
+    color: #f2c00b;
+}
+
+.bg-overlay {
+    background: rgb(4, 26, 61, 0.7) !important;
+    bottom: 0;
+    position: absolute;
+}
+
 .bg-blue-grad-one {
     background: linear-gradient(-115deg, rgb(10, 56, 112) 0%, rgb(4, 26, 61) 100%);
 }

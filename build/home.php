@@ -90,60 +90,68 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                 <div class="col-lg-12 col-md-12 col-xs-12">
                     <div class="contents">
                         <div class="col-md-7">
-                            <h1 class="head-title text-white display-4 py-md-5">Bold. Brighter. Better.</h1>
-                            <h5 class="text-white">Get the Right Place For You.</h5>
-                            <p class="text-white">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
+                            <h1 class="head-title text-white display-4 pt-5 font-weight-bold">Find the Perfect Place.</h1>
+                            <div class="py-md-5">
+                                <h5 class="text-white">Connect with <span class="primary-color">#TeamPRASDEL</span></h5>
+                                <p class="text-white">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
+                            </div>
+
                         </div>
 
-                        <div class="job-search-form col-md-12">
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <input class="form-control form-control-lg" type="text" placeholder="Keyword eg. Accountant, Marketing, Technician, etc">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <select>
-                                                        <option value="none">All Education Level</option>
-                                                        <option value="none">Cetificate Level</option>
-                                                        <option value="none">Diploma Level</option>
-                                                        <option value="none">Bachelor of Degree</option>
-                                                    </select>
-                                                </label>
-                                            </div>
-                                            <i class="lni-graduation"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
-                                        <div class="form-group">
-                                            <div class="search-category-container">
-                                                <label class="styled-select">
-                                                    <select>
-                                                        <option value="none">All Categories</option>
-                                                        <option value="none">Internship</option>
-                                                        <option value="none">Industrial Practical Training (Field)</option>
-                                                        <option value="none">Volunteering</option>
-                                                    </select>
-                                                </label>
-                                            </div>
-                                            <i class="lni-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 col-xs-12 px-lg-1 mb-1">
-                                        <button type="submit" class="button btn-block">Search <i class="lni-search"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-overlay py-4">
+            <div class="container">
+                <div class="job-search-form col-md-12 my-auto">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
+                                <div class="form-group">
+                                    <div class="search-category-container">
+                                        <label class="styled-select">
+                                            <input class="form-control form-control-lg" type="text" placeholder="Keyword eg. Accountant, Marketing, Technician, etc">
+                                        </label>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
+                                <div class="form-group">
+                                    <div class="search-category-container">
+                                        <label class="styled-select">
+                                            <select>
+                                                <option value="none">All Education Level</option>
+                                                <option value="none">Cetificate Level</option>
+                                                <option value="none">Diploma Level</option>
+                                                <option value="none">Bachelor of Degree</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <i class="lni-graduation"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
+                                <div class="form-group">
+                                    <div class="search-category-container">
+                                        <label class="styled-select">
+                                            <select>
+                                                <option value="none">All Categories</option>
+                                                <option value="none">Internship</option>
+                                                <option value="none">Industrial Practical Training (Field)</option>
+                                                <option value="none">Volunteering</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                    <i class="lni-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
+                                <button type="submit" class="button btn-block">Search <i class="lni-search"></i></button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
