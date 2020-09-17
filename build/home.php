@@ -90,12 +90,11 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                 <div class="col-lg-12 col-md-12 col-xs-12">
                     <div class="contents">
                         <div class="col-md-7">
-                            <h1 class="head-title text-white display-4 pt-5 font-weight-bold">Find the Perfect Place.</h1>
-                            <div class="py-md-5">
-                                <h5 class="text-white">Connect with <span class="primary-color">#TeamPRASDEL</span></h5>
-                                <p class="text-white">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
-                            </div>
-
+                            <h1 class="head-title text-white display-5 pt-5 font-weight-bold">Are You Looking For</h1>
+                            <h5 class="text-white pt-1">Field Attachment | Volunteer Work | Internship?</h5>
+                            <p class="text-white py-md-4 my-md-3">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
+                            <h5 class="text-white mb-0">Connect with <a href="https://twitter.com/prasdel"><span class="primary-color">#TeamPRASDEL</span></a></h5>
+                            <p> <small class="primary-color">#ImpartingWorkingSkillsForFutureGraduates</small></p>
                         </div>
 
 
@@ -147,7 +146,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                     <i class="lni-chevron-down"></i>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-xs-12 px-lg-1 mb-1">
+                            <div class="col-lg-2 col-xs-12 px-lg-1 mb-1">
                                 <button type="submit" class="button btn-block">Search <i class="lni-search"></i></button>
                             </div>
                         </div>
