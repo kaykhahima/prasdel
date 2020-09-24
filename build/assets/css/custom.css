@@ -18,6 +18,10 @@ body {
     color: #f2c00b;
 }
 
+.secondary-color {
+    color: #093266 !important;
+}
+
 .bg-overlay {
     background: rgb(4, 26, 61, 0.7) !important;
     bottom: 0;
@@ -712,6 +716,11 @@ footer .menu li a:hover {
 
 .right-sideabr .list-item li a.active {
     color: #f2c00b;
+}
+
+/*course page*/
+#course-contents .btn {
+    color: #000;
 }
 
 @media (min-width: 992px) {

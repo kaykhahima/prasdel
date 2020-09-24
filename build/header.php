@@ -53,9 +53,16 @@ include 'head.php';
                                 </ul>
 -->
                             <!--                            </li>-->
+                            <!--
                             <li class="nav-item <?php if($pageTitle == 'Subscriptions'){echo 'active';}?>">
                                 <a class="nav-link" href="pricing">
                                     Subscriptions
+                                </a>
+                            </li>
+-->
+                            <li class="nav-item <?php if($pageTitle == 'Online Courses'){echo 'active';}?>">
+                                <a class="nav-link" href="online-courses">
+                                    Online Courses
                                 </a>
                             </li>
 
