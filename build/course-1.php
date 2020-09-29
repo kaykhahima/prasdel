@@ -16,6 +16,17 @@ include 'header.php';?>
         z-index: 1000;
     }
 
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #093266;
+    }
+
+    .sticky-nav-link:hover {
+        color: #fff;
+        background-color: #093266;
+    }
+
 </style>
 
 <!-- Page Header Start -->
@@ -107,22 +118,22 @@ include 'header.php';?>
             <div class="col-md-8 offset-md-2">
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link" href="#overview">Overview</a>
+                        <a class="nav-link sticky-nav-link" href="#overview">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#topics">Topics</a>
+                        <a class="nav-link sticky-nav-link" href="#topics">Topics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#requirements">Requirements</a>
+                        <a class="nav-link sticky-nav-link" href="#requirements">Requirements</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#instructor">Instructor's Bio</a>
+                        <a class="nav-link sticky-nav-link" href="#instructor">Instructor's Bio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
+                        <a class="nav-link sticky-nav-link" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#more-courses">More courses</a>
+                        <a class="nav-link sticky-nav-link" href="#more-courses">More courses</a>
                     </li>
                 </ul>
             </div>
@@ -455,6 +466,7 @@ include 'header.php';?>
         window.onscroll = function() {
             myFunction()
         };
+        $(document).on("scroll", onScroll);
 
         // Get the navbar
         var navbar = document.getElementById("sticky-navbar");
@@ -472,6 +484,8 @@ include 'header.php';?>
                 var offsetHeight = document.getElementById('header-nav').clientHeight;
                 var heightPercent = (offsetHeight * 100) / vh;
 
+                console.log(offsetHeight + stickyNavHeight);
+
                 document.getElementById('sticky-navbar').style.top = heightPercent + "%";
             } else {
                 navbar.classList.remove("sticky");
@@ -480,29 +494,46 @@ include 'header.php';?>
 
         $(document).ready(function() {
             // Add smooth scrolling to all links
-            $("a.nav-link").on('click', function(event) {
+            $("a.sticky-nav-link").on('click', function(event) {
 
                 var offsetHeight = document.getElementById('header-nav').clientHeight;
                 var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
 
-                // Make sure this.hash has a value before overriding default behavior
-                //                if (this.hash !== "") {
-                // Prevent default anchor click behavior
                 event.preventDefault();
-
-                // Store hash
                 var hash = this.hash;
 
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
-
-
-
-                    scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight)
+                    scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight) + 2
                 }, 800);
-                //                } // End if
             });
+
+        });
+
+        function onScroll(event) {
+            var scrollPos = $(document).scrollTop();
+            var offsetHeight = document.getElementById('header-nav').clientHeight;
+            var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
+
+            $('#sticky-navbar a').each(function() {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos + offsetHeight + stickyNavHeight && refElement.position().top + refElement.height() > scrollPos) {
+                    $('#sticky-navbar ul li a').removeClass("active");
+                    currLink.addClass("active");
+                } else {
+                    currLink.removeClass("active");
+                }
+            });
+        }
+
+        $("a").click(function() {
+            // If this isn't already active
+            if (!$(this).hasClass("active")) {
+                // Remove the class from anything that is active
+                $("a.active").removeClass("active");
+                // And make this active
+                $(this).addClass("active");
+            }
         });
 
     </script>
