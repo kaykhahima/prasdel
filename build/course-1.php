@@ -461,7 +461,7 @@ include 'header.php';?>
         var offsetHeight = document.getElementById('main-navbar').clientHeight;
         var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
         const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        console.log(offsetHeight);
+
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
 
@@ -472,7 +472,6 @@ include 'header.php';?>
 
                 var offsetHeight = document.getElementById('main-navbar').clientHeight;
                 var heightPercent = (offsetHeight * 100) / vh;
-                console.log(offsetHeight);
 
                 document.getElementById('sticky-navbar').style.top = heightPercent + "%";
             } else {
@@ -483,6 +482,9 @@ include 'header.php';?>
         $(document).ready(function() {
             // Add smooth scrolling to all links
             $("a.nav-link").on('click', function(event) {
+
+                var offsetHeight = document.getElementById('main-navbar').clientHeight;
+                var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
 
                 // Make sure this.hash has a value before overriding default behavior
                 //                if (this.hash !== "") {
@@ -495,6 +497,9 @@ include 'header.php';?>
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
+
+
+
                     scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight)
                 }, 800);
                 //                } // End if
