@@ -4,7 +4,7 @@ include 'head.php';
     <!-- Header Section Start -->
     <header id="home" class="hero-area">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar" id="main-navbar">
             <div class="container">
                 <div class="theme-header clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->

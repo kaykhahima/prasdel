@@ -3,13 +3,8 @@ $pageTitle = "Online Courses";
 include 'header.php';?>
 <!-- Header Section End -->
 <style>
-    html {
-        scroll-behavior: smooth;
-    }
-
     .sticky {
         position: fixed;
-        top: 12%;
         width: 100%;
     }
 
@@ -19,20 +14,6 @@ include 'header.php';?>
 
     #sticky-navbar {
         z-index: 1000;
-    }
-
-    a:active {
-        color: red !important;
-    }
-
-
-    /*
-    .navbar-nav li {float: left; margin-left: 10px; list-style: none}
-    #home {clear: both;}*/
-
-    .newClass {
-        background: blue;
-        color: red;
     }
 
 </style>
@@ -52,7 +33,7 @@ include 'header.php';?>
 <!-- Page Header End -->
 
 <!-- Start Pricing Table Section -->
-<div id="online-courses" class="section bg-gray">
+<div id="online-courses" class="bg-gray pt-5">
     <div class="container pb-5">
         <div class="row">
             <div class="col-md-6 order-md-2 pb-sm-4">
@@ -477,6 +458,9 @@ include 'header.php';?>
 
         // Get the navbar
         var navbar = document.getElementById("sticky-navbar");
+        var offsetHeight = document.getElementById('main-navbar').clientHeight;
+        var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
+        const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
@@ -485,40 +469,36 @@ include 'header.php';?>
         function myFunction() {
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
+
+
+                //                console.log(document.getElementById('main-navbar').clientHeight);
+                var heightPercent = (offsetHeight * 100) / vh;
+
+                document.getElementById('sticky-navbar').style.top = heightPercent + "%";
             } else {
                 navbar.classList.remove("sticky");
             }
         }
 
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a.nav-link").on('click', function(event) {
 
+                // Make sure this.hash has a value before overriding default behavior
+                //                if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-        $(function() {
-            $(window).on('scroll', function() {
-                var WindowTop = $(window).scrollTop();
-                $('section').each(function(i) {
-                    if (WindowTop > $(this).offset().top - 50 &&
-                        WindowTop < $(this).offset().top + $(this).outerHeight(true)
-                    ) {
-                        $('.nav > li > a').removeClass('newClass');
-                        $('.nav li').eq(i).find('a').addClass('newClass');
-                    }
-                });
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight)
+                }, 800);
+                //                } // End if
             });
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-
-
-
         });
 
     </script>
