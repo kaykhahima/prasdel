@@ -461,7 +461,7 @@ include 'header.php';?>
         var offsetHeight = document.getElementById('main-navbar').clientHeight;
         var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
         const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-
+        console.log(offsetHeight);
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
 
@@ -470,9 +470,9 @@ include 'header.php';?>
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
 
-
-                //                console.log(document.getElementById('main-navbar').clientHeight);
+                var offsetHeight = document.getElementById('main-navbar').clientHeight;
                 var heightPercent = (offsetHeight * 100) / vh;
+                console.log(offsetHeight);
 
                 document.getElementById('sticky-navbar').style.top = heightPercent + "%";
             } else {
