@@ -458,9 +458,6 @@ include 'header.php';?>
 
         // Get the navbar
         var navbar = document.getElementById("sticky-navbar");
-        var offsetHeight = document.getElementById('main-navbar').clientHeight;
-        var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
-        const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
         // Get the offset position of the navbar
         var sticky = navbar.offsetTop;
@@ -470,7 +467,9 @@ include 'header.php';?>
             if (window.pageYOffset >= sticky) {
                 navbar.classList.add("sticky")
 
-                var offsetHeight = document.getElementById('main-navbar').clientHeight;
+                var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
+                const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+                var offsetHeight = document.getElementById('header-nav').clientHeight;
                 var heightPercent = (offsetHeight * 100) / vh;
 
                 document.getElementById('sticky-navbar').style.top = heightPercent + "%";
@@ -483,7 +482,7 @@ include 'header.php';?>
             // Add smooth scrolling to all links
             $("a.nav-link").on('click', function(event) {
 
-                var offsetHeight = document.getElementById('main-navbar').clientHeight;
+                var offsetHeight = document.getElementById('header-nav').clientHeight;
                 var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
 
                 // Make sure this.hash has a value before overriding default behavior
