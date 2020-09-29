@@ -16,15 +16,21 @@ include 'header.php';?>
         z-index: 1000;
     }
 
+    #sticky-navbar a {
+        color: #9a9a9a;
+    }
+
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
-        color: #fff;
-        background-color: #093266;
+        color: #093266 !important;
+        background-color: transparent;
+        font-weight: bold;
     }
 
     .sticky-nav-link:hover {
-        color: #fff;
-        background-color: #093266;
+        color: #093266 !important;
+        background-color: transparent;
+        font-weight: bold;
     }
 
 </style>
@@ -113,7 +119,7 @@ include 'header.php';?>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-light p-2" id="sticky-navbar">
+    <div class="container-fluid border-bottom bg-white p-2" id="sticky-navbar">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <ul class="nav nav-pills nav-fill">
