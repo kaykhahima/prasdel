@@ -723,6 +723,10 @@ footer .menu li a:hover {
     color: #000;
 }
 
+.price-tag {
+    color: #093266;
+}
+
 @media (min-width: 992px) {
     .welcome-text {
         display: none;

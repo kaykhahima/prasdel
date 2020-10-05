@@ -7,7 +7,7 @@
                 <div class="col-lg-3 col-md-3 col-xs-12">
                     <div class="widget">
                         <div class="footer-logo mb-2"><img src="assets/img/logo-footer2.png" width="200px" height="56px" alt=""></div>
-<!--                        <h2 class="block-title">PRASDEL</h2>-->
+                        <!--                        <h2 class="block-title">PRASDEL</h2>-->
                         <div class="textwidget">
                             <p>Imparting working skills to future graduates</p>
                         </div>

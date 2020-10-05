@@ -33,6 +33,14 @@ include 'header.php';?>
         font-weight: bold;
     }
 
+    #topics .btn-link:hover,
+    #topics .btn-link:active {
+        color: #0056b3;
+        text-decoration: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
 </style>
 
 <!-- Page Header Start -->
@@ -60,7 +68,7 @@ include 'header.php';?>
                 <h5 class="pb-2"><a href="#"><span class="badge badge-primary">Development</span></a></h5>
                 <h3 class="card-title text-dark">Web Development with Laravel</h3>
                 <p class="card-text text-dark">If you are a web developer or web designer or you want to become a web developer, this course is ideal for you. You can learn Laravel PHP Framework with this course. This course is beginner level and it starts from scratch. Hence, a beginner or a student can easily take this course and learn from it. Laravel is a PHP framework for modern web apps.</p>
-                <a href="#" class="btn btn-common text-capitalize my-3">Join Course</a>
+                <a href="course" class="btn btn-common text-capitalize my-3">Join Course</a>
             </div>
         </div>
     </div>
@@ -119,7 +127,7 @@ include 'header.php';?>
             </div>
         </div>
     </div>
-    <div class="container-fluid border-bottom bg-white p-2" id="sticky-navbar">
+    <div class="container-fluid border-bottom border-top bg-white p-2" id="sticky-navbar">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <ul class="nav nav-pills nav-fill">
@@ -154,7 +162,10 @@ include 'header.php';?>
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="../build/assets/video/video.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-caption">
+                        <p class="small font-italic">Demo video</p>
                     </div>
                 </div>
                 <div class="pb-3" id="course-objective">
@@ -218,7 +229,7 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingOne">
                                 <h2 class="mb-0 text-dark">
                                     <button class="btn btn-link text-capitalize" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Topic One
+                                        <i class="fa fa-file-alt"></i> Lesson 01
                                     </button>
                                 </h2>
                             </div>
@@ -226,9 +237,15 @@ include 'header.php';?>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="">
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 1 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 2 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 3 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -237,18 +254,27 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingTwo">
                                 <h2 class="mb-0 text-dark">
                                     <button class="btn btn-link text-capitalize" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                        Topic Two
+                                        <i class="fa fa-file-alt"></i> Lesson 02
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="">
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 1 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 2 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 3 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 4 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 5 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 2 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 04 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 05 </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -257,15 +283,21 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Topic Three
+                                        <i class="fa fa-file-alt"></i> Lesson 03
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="">
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 1 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 2 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -274,17 +306,23 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingFour">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Topic Four
+                                        <i class="fa fa-file-alt"></i> Lesson 04
                                     </button>
                                 </h2>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="">
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 1 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 2 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 3 </a></li>
-                                        <li class="pb-2"><i class="lni lni-arrow-right"></i> <a href="#">Sub topic 4 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a></li>
+                                        <li class="pb-2">
+                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 04 </a>
+                                            <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -301,10 +339,10 @@ include 'header.php';?>
                 <h3>Requirements</h3>
                 <div id="course-requirements">
                     <ul>
-                        <li class="pb-2"><i class="lni lni-pointer-right"></i> Requirement 1 </li>
-                        <li class="pb-2"><i class="lni lni-pointer-right"></i> Requirement 2 </li>
-                        <li class="pb-2"><i class="lni lni-pointer-right"></i> Requirement 3 </li>
-                        <li class="pb-2"><i class="lni lni-pointer-right"></i> Requirement 4 </li>
+                        <li class="pb-2"><i class="lni lni-chevron-right-circle"></i> Requirement 1 </li>
+                        <li class="pb-2"><i class="lni lni-chevron-right-circle"></i> Requirement 2 </li>
+                        <li class="pb-2"><i class="lni lni-chevron-right-circle"></i> Requirement 3 </li>
+                        <li class="pb-2"><i class="lni lni-chevron-right-circle"></i> Requirement 4 </li>
                     </ul>
                 </div>
             </div>
@@ -322,8 +360,8 @@ include 'header.php';?>
                         <div class="col-md-3 py-3">
                             <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="...">
                         </div>
-                        <div class="col-md-6 py-3 my-auto">
-                            <p class="text-dark">Prof. John Doe | University of Science and Technology</p>
+                        <div class="col-md-9 py-3 my-auto">
+                            <p class="text-dark"><span class="font-weight-bold">Prof. John Doe</span> | University of Science and Technology</p>
                             <p>Software Developer</p>
                             <p>12 Courses</p>
                         </div>
@@ -394,15 +432,22 @@ include 'header.php';?>
                                 <img src="https://via.placeholder.com/400x240" class="card-img-top img-fluid" alt="...">
                                 <div class="card-body">
                                     <p class="pb-2"><a href="#"><span class="badge badge-primary">Development</span></a></p>
-                                    <h4 class="card-title text-dark"><a href="course-1">UI/UX Course for Beginners</a></h4>
+                                    <h4 class="card-title text-dark"><a href="course-1">Web Development with Laravel</a></h4>
                                     <p class="card-text font-weight-bold"><i class="lni lni-user"></i> <a href="#" class="text-dark">Prof. John Doe</a></p>
                                     <p class="card-text">If you are a web developer or web designer, this course is ideal for you. You can learn Laravel PHP Framework with this course.</p>
                                     <div class="row py-1">
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-timer"></i> 2 weeks</p>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Duration: 2 weeks</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Published on: 25/09/2020</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-calendar"></i> 25/09/2020</p>
+                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
@@ -416,15 +461,22 @@ include 'header.php';?>
                                 <img src="https://via.placeholder.com/400x240" class="card-img-top img-fluid" alt="...">
                                 <div class="card-body">
                                     <p class="pb-2"><a href="#"><span class="badge badge-primary">Development</span></a></p>
-                                    <h4 class="card-title text-dark"><a href="course-1">Brand Guideline Tutorial for Experts</a></h4>
+                                    <h4 class="card-title text-dark"><a href="course-1">Web Development with Laravel</a></h4>
                                     <p class="card-text font-weight-bold"><i class="lni lni-user"></i> <a href="#" class="text-dark">Prof. John Doe</a></p>
                                     <p class="card-text">If you are a web developer or web designer, this course is ideal for you. You can learn Laravel PHP Framework with this course.</p>
                                     <div class="row py-1">
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-timer"></i> 2 weeks</p>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Duration: 2 weeks</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Published on: 25/09/2020</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-calendar"></i> 25/09/2020</p>
+                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
@@ -437,16 +489,23 @@ include 'header.php';?>
                             <div class="card">
                                 <img src="https://via.placeholder.com/400x240" class="card-img-top img-fluid" alt="...">
                                 <div class="card-body">
-                                    <p class="pb-2"><a href="#"><span class="badge badge-primary">Mystery</span></a></p>
-                                    <h4 class="card-title text-dark"><a href="course-1">A Journey To The End of The World</a></h4>
+                                    <p class="pb-2"><a href="#"><span class="badge badge-primary">Development</span></a></p>
+                                    <h4 class="card-title text-dark"><a href="course-1">Web Development with Laravel</a></h4>
                                     <p class="card-text font-weight-bold"><i class="lni lni-user"></i> <a href="#" class="text-dark">Prof. John Doe</a></p>
-                                    <p class="card-text">This course deeply explain what happens in today's modern world: the good, the bad, the ugly and the hidden.</p>
+                                    <p class="card-text">If you are a web developer or web designer, this course is ideal for you. You can learn Laravel PHP Framework with this course.</p>
                                     <div class="row py-1">
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-timer"></i> 2 Months</p>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Duration: 2 weeks</p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p class="small font-italic text-dark">Published on: 25/09/2020</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><i class="lni lni-calendar"></i> 25/09/2020</p>
+                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
