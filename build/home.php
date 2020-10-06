@@ -288,7 +288,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <div class="tags">
                                 <span><i class="lni-map-marker"></i> New York</span>
                             </div>
-                            <a href="#" class="btn btn-border">5 Open Applications</a>
+                            <a href="#" class="btn btn-common">5 Open Applications</a>
                         </div>
                     </div>
                 </div>
@@ -302,7 +302,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <div class="tags">
                                 <span><i class="lni-map-marker"></i> New York</span>
                             </div>
-                            <a href="#" class="btn btn-border">5 Open Applications</a>
+                            <a href="#" class="btn btn-common">5 Open Applications</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +316,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <div class="tags">
                                 <span><i class="lni-map-marker"></i> New York</span>
                             </div>
-                            <a href="#" class="btn btn-border">5 Open Applications</a>
+                            <a href="#" class="btn btn-common">5 Open Applications</a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +330,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <div class="tags">
                                 <span><i class="lni-map-marker"></i> New York</span>
                             </div>
-                            <a href="#" class="btn btn-border">5 Open Applications</a>
+                            <a href="#" class="btn btn-common">5 Open Applications</a>
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                             <div class="tags">
                                 <span><i class="lni-map-marker"></i> New York</span>
                             </div>
-                            <a href="#" class="btn btn-border">5 Open Applications</a>
+                            <a href="#" class="btn btn-common">5 Open Applications</a>
                         </div>
                     </div>
                 </div>
