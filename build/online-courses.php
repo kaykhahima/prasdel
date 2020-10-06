@@ -11,7 +11,7 @@ include 'header.php';?>
                  <div class="inner-header col-md-10 offset-md-1">
                      <h3 class="mb-4">Online Courses</h3>
                      <h5 class="text-white">Increase your knowledge today. Find what suits you.</h5>
-                     <p>Explore from various courses to get started. Different lessons with different instructors to bring you the knowledge you require straight from your device.</p>
+                     <p>Explore from various courses to get started. Different lessons with different instructors to bring you the knowledge you require straight on your device.</p>
                  </div>
                  <div class="job-search-form bg-cyan job-featured-search">
                      <form>

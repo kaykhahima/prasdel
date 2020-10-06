@@ -29,7 +29,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
 -->
                         <li class="nav-item <?php if($pageTitle == 'Imparting Working Skills To Future Graduates'){echo 'active';}?>">
                             <a class="nav-link dropdown-toggle" href="home">
-                                <i class="fa fa-md fa-home"></i>
+                                Home
                             </a>
                         </li>
                         <li class="nav-item <?php if($pageTitle == 'About Us'){echo 'active';}?>">
@@ -60,7 +60,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                                 </ul>
 -->
                         <!--                            </li>-->
-<!--
+                        <!--
                         <li class="nav-item <?php if($pageTitle == 'Subscriptions'){echo 'active';}?>">
                             <a class="nav-link" href="pricing">
                                 Subscriptions

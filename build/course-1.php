@@ -61,14 +61,14 @@ include 'header.php';?>
 <div id="online-courses" class="bg-gray pt-5">
     <div class="container pb-5">
         <div class="row">
-            <div class="col-md-6 order-md-2 pb-sm-4">
+            <div class="col-md-6 order-md-2">
                 <img src="https://via.placeholder.com/800x480" class="img-fluid rounded" alt="...">
             </div>
-            <div class="col-md-6 order-md-1 ">
+            <div class="col-md-6 order-md-1 pt-sm-4 pt-xs-4">
                 <h5 class="pb-2"><a href="#"><span class="badge badge-primary">Development</span></a></h5>
                 <h3 class="card-title text-dark">Web Development with Laravel</h3>
                 <p class="card-text text-dark">If you are a web developer or web designer or you want to become a web developer, this course is ideal for you. You can learn Laravel PHP Framework with this course. This course is beginner level and it starts from scratch. Hence, a beginner or a student can easily take this course and learn from it. Laravel is a PHP framework for modern web apps.</p>
-                <a href="course" class="btn btn-common text-capitalize my-3">Join Course</a>
+                <a href="course" class="button btn btn-common text-capitalize my-3">Join Course <i class="lni-chevron-right"></i></a>
             </div>
         </div>
     </div>
@@ -147,7 +147,10 @@ include 'header.php';?>
                         <a class="nav-link sticky-nav-link" href="#reviews">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link sticky-nav-link" href="#more-courses">More courses</a>
+                        <a class="nav-link sticky-nav-link" href="#more-courses">Similar courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="course" class="button btn btn-common btn-sm text-capitalize text-dark px-4 py-2">Join Course <i class="lni-chevron-right"></i> </a>
                     </li>
                 </ul>
             </div>
@@ -229,7 +232,7 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingOne">
                                 <h2 class="mb-0 text-dark">
                                     <button class="btn btn-link text-capitalize" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="fa fa-file-alt"></i> Lesson 01
+                                        <i class="fa fa-file-alt"></i> Topic 01
                                     </button>
                                 </h2>
                             </div>
@@ -238,12 +241,12 @@ include 'header.php';?>
                                 <div class="card-body">
                                     <ul class="">
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 01 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
-                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Lesson 02 </a></li>
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 03 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
                                     </ul>
@@ -254,7 +257,7 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingTwo">
                                 <h2 class="mb-0 text-dark">
                                     <button class="btn btn-link text-capitalize" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                        <i class="fa fa-file-alt"></i> Lesson 02
+                                        <i class="fa fa-file-alt"></i> Topic 02
                                     </button>
                                 </h2>
                             </div>
@@ -262,19 +265,19 @@ include 'header.php';?>
                                 <div class="card-body">
                                     <ul class="">
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 01 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
-                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 2 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Lesson 02 </a></li>
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 03 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 04 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 04 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
-                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 05 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Lesson 05 </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -283,7 +286,7 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <i class="fa fa-file-alt"></i> Lesson 03
+                                        <i class="fa fa-file-alt"></i> Topic 03
                                     </button>
                                 </h2>
                             </div>
@@ -291,11 +294,11 @@ include 'header.php';?>
                                 <div class="card-body">
                                     <ul class="">
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 01 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 02 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
                                     </ul>
@@ -306,7 +309,7 @@ include 'header.php';?>
                             <div class="card-header p-0" id="headingFour">
                                 <h2 class="mb-0">
                                     <button class="btn btn-link collapsed text-capitalize" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <i class="fa fa-file-alt"></i> Lesson 04
+                                        <i class="fa fa-file-alt"></i> Topic 04
                                     </button>
                                 </h2>
                             </div>
@@ -314,13 +317,13 @@ include 'header.php';?>
                                 <div class="card-body">
                                     <ul class="">
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 01 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 01 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
-                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 02 </a></li>
-                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Sub topic 03 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Lesson 02 </a></li>
+                                        <li class="pb-2"><a href="#"><i class="fa fa-play-circle"></i> Lesson 03 </a></li>
                                         <li class="pb-2">
-                                            <a href="#"><i class="fa fa-play-circle"></i> Sub topic 04 </a>
+                                            <a href="#"><i class="fa fa-play-circle"></i> Lesson 04 </a>
                                             <a href="#" class="float-right small"><i class="fa fa-video"></i></a>
                                         </li>
                                     </ul>
@@ -549,9 +552,8 @@ include 'header.php';?>
                 var offsetHeight = document.getElementById('header-nav').clientHeight;
                 var heightPercent = (offsetHeight * 100) / vh;
 
-                console.log(offsetHeight + stickyNavHeight);
-
                 document.getElementById('sticky-navbar').style.top = heightPercent + "%";
+                document.getElementById('joiner-btn').style.display = 'none';
             } else {
                 navbar.classList.remove("sticky");
             }

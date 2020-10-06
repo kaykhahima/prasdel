@@ -596,6 +596,15 @@
         min-height: 100vh;
     }
 
+    .landing-page .job-search-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .bg-overlay {
+        background: transparent !important;
+    }
+
     .section {
         padding: 60px 0 45px;
     }
@@ -709,5 +718,11 @@
     .f-category {
         margin-left: 15px;
         margin-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .pt-xs-4 {
+        padding-top: 1.5rem !important;
     }
 }

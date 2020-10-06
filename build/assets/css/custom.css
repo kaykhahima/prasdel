@@ -46,6 +46,12 @@ body {
     background: #f2c00b;
 }
 
+.badge-primary {
+    color: #fff;
+    background-color: #041c42;
+    padding: 6px 8px;
+}
+
 .theme-header {
     width: 100%;
     border-bottom: 0.001em solid #fff;
