@@ -108,7 +108,7 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-overlay py-4">
+        <div class="container-fluid py-4 bg-overlay">
             <div class="container">
                 <div class="job-search-form col-md-12 my-auto">
                     <form>

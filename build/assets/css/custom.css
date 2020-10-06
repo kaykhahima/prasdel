@@ -399,6 +399,11 @@ nav .lni-chevron-down {
     border-radius: 4px
 }
 
+.btn-border:hover {
+    background-color: #f2c00b;
+    color: #fff;
+}
+
 .pricing-table:hover .btn-border,
 .pricing-active .btn-border {
     background: #f2c00b;

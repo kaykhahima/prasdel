@@ -727,6 +727,10 @@
 }
 
 @media (max-width: 576px) {
+    .bg-overlay {
+        position: relative;
+    }
+
     .pt-xs-4 {
         padding-top: 1.5rem !important;
     }

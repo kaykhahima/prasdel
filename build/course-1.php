@@ -450,7 +450,7 @@ include 'header.php';?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
+                                            <div class="price-tag py-3 text-center rounded h5"><span class="small">Tzs</span>39,999<span class="small">/=</span></div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
@@ -479,7 +479,7 @@ include 'header.php';?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
+                                            <div class="price-tag py-3 text-center rounded h5"><span class="small">Tzs</span>149,000<span class="small">/=</span></div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
@@ -508,7 +508,7 @@ include 'header.php';?>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="price-tag py-3 text-center rounded h5">Tzs 149,000/=</div>
+                                            <div class="price-tag py-3 text-center rounded h5"><span class="small">Tzs</span>99,000<span class="small">/=</span></div>
                                         </div>
                                         <div class="col-md-12 pt-3">
                                             <a href="course-1" class="btn btn-common btn-block">Find out more</a>
@@ -518,7 +518,7 @@ include 'header.php';?>
                             </div>
                         </div>
                         <div class="col-md-12 text-center">
-                            <a href="course-1" class="btn btn-common ">See all Courses</a>
+                            <a href="course-1" class="btn btn-border ">See all Courses</a>
                         </div>
                     </div>
                 </div>
