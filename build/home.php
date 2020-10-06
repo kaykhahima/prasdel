@@ -93,13 +93,12 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
     <section class="landing-page">
         <div class="container h-100">
             <div class="row h-100">
-
                 <div class="col-lg-12 col-md-12 col-xs-12">
                     <div class="contents">
                         <div class="col-md-7">
                             <h1 class="head-title text-white display-5 pt-5 font-weight-bold">Are You Looking For</h1>
                             <h5 class="text-white pt-1">Field Attachment | Volunteer Work | Internship?</h5>
-                            <p class="text-white py-md-4 my-md-3">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
+                            <p class="text-white py-md-4 my-md-3 landing-intro">We aim to connect you with organizations that will assist you on gaining experience and exposure of the working environment.</p>
                             <h5 class="text-white mb-0">Connect with <a href="https://twitter.com/prasdel"><span class="primary-color">#TeamPRASDEL</span></a></h5>
                             <p> <small class="primary-color">#ImpartingWorkingSkillsForFutureGraduates</small></p>
                         </div>
