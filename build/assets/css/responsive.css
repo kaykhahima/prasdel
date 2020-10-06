@@ -728,6 +728,7 @@
 
 @media (max-width: 576px) {
     .bg-overlay {
+        padding-top: 0 !important;
         position: relative;
     }
 
