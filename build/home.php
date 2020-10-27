@@ -35,7 +35,8 @@ $pageTitle = "Imparting Working Skills To Future Graduates";
                         <li class="nav-item <?php if($pageTitle == 'About Us'){echo 'active';}?>">
                             <a class="nav-link" href="about">
                                 About Us
-                            </a> </li>
+                            </a>
+                        </li>
                         <li class="nav-item dropdown undisplayed">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Organisations <i class="lni-chevron-down "></i>

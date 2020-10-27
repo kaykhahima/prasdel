@@ -57,7 +57,7 @@ include 'header.php';?>
 </div>
 <!-- Page Header End -->
 
-<!-- Start Pricing Table Section -->
+<!-- Start course view Section -->
 <div id="online-courses" class="bg-gray pt-5">
     <div class="container pb-5">
         <div class="row">
@@ -525,87 +525,86 @@ include 'header.php';?>
             </div>
         </div>
     </section>
+</div>
 
 
 
+<script>
+    window.onscroll = function() {
+        myFunction()
+    };
+    $(document).on("scroll", onScroll);
 
+    // Get the navbar
+    var navbar = document.getElementById("sticky-navbar");
 
-    <script>
-        window.onscroll = function() {
-            myFunction()
-        };
-        $(document).on("scroll", onScroll);
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
 
-        // Get the navbar
-        var navbar = document.getElementById("sticky-navbar");
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
 
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
+            var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
+            const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+            var offsetHeight = document.getElementById('header-nav').clientHeight;
+            var heightPercent = (offsetHeight * 100) / vh;
 
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-
-                var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
-                const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-                var offsetHeight = document.getElementById('header-nav').clientHeight;
-                var heightPercent = (offsetHeight * 100) / vh;
-
-                document.getElementById('sticky-navbar').style.top = heightPercent + "%";
-                document.getElementById('joiner-btn').style.display = 'none';
-            } else {
-                navbar.classList.remove("sticky");
-            }
+            document.getElementById('sticky-navbar').style.top = heightPercent + "%";
+            document.getElementById('joiner-btn').style.display = 'none';
+        } else {
+            navbar.classList.remove("sticky");
         }
+    }
 
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a.sticky-nav-link").on('click', function(event) {
+    $(document).ready(function() {
+        // Add smooth scrolling to all links
+        $("a.sticky-nav-link").on('click', function(event) {
 
-                var offsetHeight = document.getElementById('header-nav').clientHeight;
-                var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
-
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight) + 2
-                }, 800);
-            });
-
-        });
-
-        function onScroll(event) {
-            var scrollPos = $(document).scrollTop();
             var offsetHeight = document.getElementById('header-nav').clientHeight;
             var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
 
-            $('#sticky-navbar a').each(function() {
-                var currLink = $(this);
-                var refElement = $(currLink.attr("href"));
-                if (refElement.position().top <= scrollPos + offsetHeight + stickyNavHeight && refElement.position().top + refElement.height() > scrollPos) {
-                    $('#sticky-navbar ul li a').removeClass("active");
-                    currLink.addClass("active");
-                } else {
-                    currLink.removeClass("active");
-                }
-            });
-        }
+            event.preventDefault();
+            var hash = this.hash;
 
-        $("a").click(function() {
-            // If this isn't already active
-            if (!$(this).hasClass("active")) {
-                // Remove the class from anything that is active
-                $("a.active").removeClass("active");
-                // And make this active
-                $(this).addClass("active");
-            }
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - (offsetHeight + stickyNavHeight) + 2
+            }, 800);
         });
 
-    </script>
+    });
 
-    <!-- End Pricing Table Section -->
+    function onScroll(event) {
+        var scrollPos = $(document).scrollTop();
+        var offsetHeight = document.getElementById('header-nav').clientHeight;
+        var stickyNavHeight = document.getElementById('sticky-navbar').clientHeight;
 
-    <!-- Footer Section Start -->
-    <?php include 'footer.php';?>
+        $('#sticky-navbar a').each(function() {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos + offsetHeight + stickyNavHeight && refElement.position().top + refElement.height() > scrollPos) {
+                $('#sticky-navbar ul li a').removeClass("active");
+                currLink.addClass("active");
+            } else {
+                currLink.removeClass("active");
+            }
+        });
+    }
+
+    $("a").click(function() {
+        // If this isn't already active
+        if (!$(this).hasClass("active")) {
+            // Remove the class from anything that is active
+            $("a.active").removeClass("active");
+            // And make this active
+            $(this).addClass("active");
+        }
+    });
+
+</script>
+
+<!-- End Pricing Table Section -->
+
+<!-- Footer Section Start -->
+<?php include 'footer.php';?>

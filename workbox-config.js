@@ -1,7 +1,7 @@
 module.exports = {
-  "globDirectory": "build/",
-  "globPatterns": [
+    "globDirectory": "build/",
+    "globPatterns": [
     "**/*.{php,js,webmanifest}"
   ],
-  "swDest": "build/sw.js"
+    "swDest": "build/sw.js"
 };
