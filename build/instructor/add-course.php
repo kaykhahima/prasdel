@@ -49,7 +49,7 @@ $pageTitle = "Add Course";
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label>Course Duration</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="eg. 2 weeks">
+                                        <input type="text" class="form-control" id="" name="" placeholder="eg. 2 weeks">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -69,7 +69,7 @@ $pageTitle = "Add Course";
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label>Course Fee</label>
-                                        <input type="number" class="form-control" id="name" name="name" placeholder="eg. 100000">
+                                        <input type="number" class="form-control" id="" name="" placeholder="eg. 100000">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
@@ -121,20 +121,23 @@ $pageTitle = "Add Course";
                                         <label>Course Requirements</label>
                                         <div id="requirements-toolbar-container"></div>
                                         <div id="requirements-editor">
-                                            <p>Type your content here</p>
+                                            <textarea></textarea>
                                         </div>
                                         <script>
                                             DecoupledEditor
-                                                .create(document.querySelector('#requirements-editor'))
+                                                .create(document.querySelector('#requirements-editor'), {
+                                                    removePlugins: ['MediaEmbed', 'FontFamily', 'ImageUpload'],
+                                                    placeholder: 'Write here',
+                                                })
                                                 .then(editor => {
                                                     const toolbarContainer = document.querySelector('#requirements-toolbar-container');
 
                                                     toolbarContainer.appendChild(editor.ui.view.toolbar.element);
+
                                                 })
                                                 .catch(error => {
                                                     console.error(error);
                                                 });
-
                                         </script>
                                     </div>
                                 </div>

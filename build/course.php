@@ -79,7 +79,7 @@ include 'header.php';?>
 
  <!-- Start Pricing Table Section -->
  <div id="" class="section bg-gray py-0">
-     <div class="container ml-0">
+     <div class="container-fluid">
          <div class="row">
              <div class="col-md-3 pl-0 py-4" id="hide">
                  <div id="mySidenav" class="sidenav">
@@ -154,6 +154,8 @@ include 'header.php';?>
                  function openNav() {
                      document.getElementById("mySidenav").style.width = "250px";
                      document.getElementById("main").style.marginLeft = "auto";
+                     document.getElementById("main").classList.remove("col-md-12");
+                     document.getElementById("main").classList.add("col-md-9");
                      document.getElementById("showTopics").innerHTML = "&times; Hide topics";
                      document.getElementById('showTopics').setAttribute('onclick', 'closeNav()');
                  }
@@ -162,9 +164,19 @@ include 'header.php';?>
                      document.getElementById("mySidenav").style.width = "0";
                      document.getElementById("hide").style.display = "contents";
                      document.getElementById("main").style.marginLeft = "0";
+                     document.getElementById("main").classList.add("col-md-12");
+                     document.getElementById("main").classList.remove("col-md-9");
                      document.getElementById("showTopics").innerHTML = "&#9776; Show Topics";
                      document.getElementById('showTopics').setAttribute('onclick', 'openNav()');
                  }
+
+                 $(window).resize(function() {
+                     if ($(this).width() <= 768) {
+                         closeNav();
+                     } else {
+                         openNav();
+                     }
+                 });
 
              </script>
          </div>
