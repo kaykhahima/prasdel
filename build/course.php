@@ -173,6 +173,8 @@ include 'header.php';?>
                  $(window).resize(function() {
                      if ($(this).width() <= 768) {
                          closeNav();
+                         document.getElementById("main").style.marginLeft = "0";
+                         document.getElementById("mySidenav").style.width = "0";
                      } else {
                          openNav();
                      }
